@@ -1,0 +1,2 @@
+basic_tutorial:beginner_tutorials:ojt_4:rosbag_practice
+-DCATKIN_DEVEL_PREFIX=/home/chaeeun/test_ws/devel -DCMAKE_INSTALL_PREFIX=/home/chaeeun/test_ws/install -G Unix Makefiles
