@@ -116,6 +116,7 @@ catkin_package(
 ## Your package locations should be listed before other locations
 include_directories(
 # include
+  include
   ${catkin_INCLUDE_DIRS}
 )
 
@@ -205,6 +206,6 @@ include_directories(
 # catkin_add_nosetests(test)
 
 
-add_executable(turtlesim_drive src/turtlesim_drive.cpp)
+add_executable(drive_main src/drive_main.cpp src/turtlesim_drive.cpp)
 
-target_link_libraries(turtlesim_drive ${catkin_LIBRARIES})
+target_link_libraries(drive_main ${catkin_LIBRARIES})

@@ -56,6 +56,18 @@ CMAKE_BINARY_DIR = /home/chaeeun/test_ws/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -123,18 +135,6 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # The main all target
 all: cmake_check_build_system
 	cd /home/chaeeun/test_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chaeeun/test_ws/build/CMakeFiles /home/chaeeun/test_ws/build/ojt_4/CMakeFiles/progress.marks
@@ -168,19 +168,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-ojt_4/CMakeFiles/turtlesim_drive.dir/rule:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_4/CMakeFiles/turtlesim_drive.dir/rule
-.PHONY : ojt_4/CMakeFiles/turtlesim_drive.dir/rule
+ojt_4/CMakeFiles/drive_main.dir/rule:
+	cd /home/chaeeun/test_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_4/CMakeFiles/drive_main.dir/rule
+.PHONY : ojt_4/CMakeFiles/drive_main.dir/rule
 
 # Convenience name for target.
-turtlesim_drive: ojt_4/CMakeFiles/turtlesim_drive.dir/rule
+drive_main: ojt_4/CMakeFiles/drive_main.dir/rule
 
-.PHONY : turtlesim_drive
+.PHONY : drive_main
 
 # fast build rule for target.
-turtlesim_drive/fast:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_4/CMakeFiles/turtlesim_drive.dir/build.make ojt_4/CMakeFiles/turtlesim_drive.dir/build
-.PHONY : turtlesim_drive/fast
+drive_main/fast:
+	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/build
+.PHONY : drive_main/fast
 
 # Convenience name for target.
 ojt_4/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
@@ -257,13 +257,40 @@ geometry_msgs_generate_messages_cpp/fast:
 	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_4/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make ojt_4/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
+src/drive_main.o: src/drive_main.cpp.o
+
+.PHONY : src/drive_main.o
+
+# target to build an object file
+src/drive_main.cpp.o:
+	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/src/drive_main.cpp.o
+.PHONY : src/drive_main.cpp.o
+
+src/drive_main.i: src/drive_main.cpp.i
+
+.PHONY : src/drive_main.i
+
+# target to preprocess a source file
+src/drive_main.cpp.i:
+	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/src/drive_main.cpp.i
+.PHONY : src/drive_main.cpp.i
+
+src/drive_main.s: src/drive_main.cpp.s
+
+.PHONY : src/drive_main.s
+
+# target to generate assembly for a file
+src/drive_main.cpp.s:
+	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/src/drive_main.cpp.s
+.PHONY : src/drive_main.cpp.s
+
 src/turtlesim_drive.o: src/turtlesim_drive.cpp.o
 
 .PHONY : src/turtlesim_drive.o
 
 # target to build an object file
 src/turtlesim_drive.cpp.o:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_4/CMakeFiles/turtlesim_drive.dir/build.make ojt_4/CMakeFiles/turtlesim_drive.dir/src/turtlesim_drive.cpp.o
+	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/src/turtlesim_drive.cpp.o
 .PHONY : src/turtlesim_drive.cpp.o
 
 src/turtlesim_drive.i: src/turtlesim_drive.cpp.i
@@ -272,7 +299,7 @@ src/turtlesim_drive.i: src/turtlesim_drive.cpp.i
 
 # target to preprocess a source file
 src/turtlesim_drive.cpp.i:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_4/CMakeFiles/turtlesim_drive.dir/build.make ojt_4/CMakeFiles/turtlesim_drive.dir/src/turtlesim_drive.cpp.i
+	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/src/turtlesim_drive.cpp.i
 .PHONY : src/turtlesim_drive.cpp.i
 
 src/turtlesim_drive.s: src/turtlesim_drive.cpp.s
@@ -281,7 +308,7 @@ src/turtlesim_drive.s: src/turtlesim_drive.cpp.s
 
 # target to generate assembly for a file
 src/turtlesim_drive.cpp.s:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_4/CMakeFiles/turtlesim_drive.dir/build.make ojt_4/CMakeFiles/turtlesim_drive.dir/src/turtlesim_drive.cpp.s
+	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/src/turtlesim_drive.cpp.s
 .PHONY : src/turtlesim_drive.cpp.s
 
 # Help Target
@@ -290,19 +317,22 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... install/strip"
-	@echo "... turtlesim_drive"
+	@echo "... drive_main"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... geometry_msgs_generate_messages_cpp"
+	@echo "... src/drive_main.o"
+	@echo "... src/drive_main.i"
+	@echo "... src/drive_main.s"
 	@echo "... src/turtlesim_drive.o"
 	@echo "... src/turtlesim_drive.i"
 	@echo "... src/turtlesim_drive.s"

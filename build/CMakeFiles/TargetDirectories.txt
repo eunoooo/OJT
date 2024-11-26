@@ -83,14 +83,14 @@
 /home/chaeeun/test_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.dir
 /home/chaeeun/test_ws/build/beginner_tutorials/CMakeFiles/install.dir
 /home/chaeeun/test_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_genpy.dir
+/home/chaeeun/test_ws/build/ojt_4/CMakeFiles/install/strip.dir
 /home/chaeeun/test_ws/build/ojt_4/CMakeFiles/install/local.dir
 /home/chaeeun/test_ws/build/ojt_4/CMakeFiles/install.dir
 /home/chaeeun/test_ws/build/ojt_4/CMakeFiles/list_install_components.dir
 /home/chaeeun/test_ws/build/ojt_4/CMakeFiles/rebuild_cache.dir
 /home/chaeeun/test_ws/build/ojt_4/CMakeFiles/edit_cache.dir
 /home/chaeeun/test_ws/build/ojt_4/CMakeFiles/test.dir
-/home/chaeeun/test_ws/build/ojt_4/CMakeFiles/install/strip.dir
-/home/chaeeun/test_ws/build/ojt_4/CMakeFiles/turtlesim_drive.dir
+/home/chaeeun/test_ws/build/ojt_4/CMakeFiles/drive_main.dir
 /home/chaeeun/test_ws/build/ojt_4/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
 /home/chaeeun/test_ws/build/ojt_4/CMakeFiles/geometry_msgs_generate_messages_py.dir
 /home/chaeeun/test_ws/build/ojt_4/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
