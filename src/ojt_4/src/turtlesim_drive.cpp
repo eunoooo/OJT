@@ -52,7 +52,7 @@ void TurtlesimDrive::driveStraight(double straight) {
 
 void TurtlesimDrive::driveDiagonal(double diagonal) {
 
-    twist.linear.x = straight; 
+    twist.linear.x = diagonal; 
     twist.linear.y = 0.0;          // twist의 다른 성분들에 대한 초기화
     twist.linear.z = 0.0;
 
@@ -61,6 +61,7 @@ void TurtlesimDrive::driveDiagonal(double diagonal) {
     twist.angular.z = 0.0;
 
     while (sqrt(pow(target_pose_x - current_pose_x, 2) + pow(target_pose_y - current_pose_y, 2)) > 0.1) {   // 0.1은 실수형 좌표 비교 시 허용 오차
+        
         pub.publish(twist);
     }
     
@@ -111,7 +112,7 @@ void TurtlesimDrive::driveTurtlesim() {
     ros::Duration(1.0).sleep();  //회전하기 전에 1초 정지
     changeDirection(135*(M_PI/180));  // 방향 변경
 
-    setTargetPosition(5.5, 6.0);
+    setTargetPosition(5.5, 6.0);  // 대각선 주행 시 도달할 위치 설정
     driveStraight(4.0);        // 대각선 방향으로 직진
     ros::Duration(1.0).sleep();  //회전하기 전에 1초 정지
     changeDirection(-(90*(M_PI/180)));  // 방향 변경

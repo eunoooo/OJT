@@ -28,7 +28,7 @@ class TurtlesimDrive {
     
     void setTargetPosition(double x, double y);
 
-    void driveStraight(double straight);                     // 직진
+    void driveStraight(double diagonal);                     // 직진
     void driveDiagonal(double straight);                    // 사선 주행
     void changeDirection(double angle);                    // 방향 변경
     void driveCircle(double straight, double angle);      // 원형 주행
