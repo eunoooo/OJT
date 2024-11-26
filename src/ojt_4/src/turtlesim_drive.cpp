@@ -32,7 +32,7 @@ void TurtlesimDrive::setTargetPosition(double x, double y) {
 void TurtlesimDrive::driveStraight(double straight) {
     ros::Time start_time = ros::Time::now();  // 시작 시간 초기화
     
-    double du = (M_PI) / std::fabs(angle);  // 직진 주행 시간 계산
+    double du = drive_straight_distance / straight;  // 직진 주행 시간 계산
 
     twist.linear.x = straight; 
     twist.linear.y = 0.0;          // twist의 다른 성분들에 대한 초기화
