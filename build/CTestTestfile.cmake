@@ -7,5 +7,6 @@
 subdirs("gtest")
 subdirs("basic_tutorial")
 subdirs("beginner_tutorials")
-subdirs("ojt_4")
+subdirs("ojt_5")
 subdirs("rosbag_practice")
+subdirs("ojt_4")

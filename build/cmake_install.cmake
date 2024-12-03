@@ -133,8 +133,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/chaeeun/test_ws/build/gtest/cmake_install.cmake")
   include("/home/chaeeun/test_ws/build/basic_tutorial/cmake_install.cmake")
   include("/home/chaeeun/test_ws/build/beginner_tutorials/cmake_install.cmake")
-  include("/home/chaeeun/test_ws/build/ojt_4/cmake_install.cmake")
+  include("/home/chaeeun/test_ws/build/ojt_5/cmake_install.cmake")
   include("/home/chaeeun/test_ws/build/rosbag_practice/cmake_install.cmake")
+  include("/home/chaeeun/test_ws/build/ojt_4/cmake_install.cmake")
 
 endif()
 

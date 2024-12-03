@@ -1,0 +1,35 @@
+cmake_minimum_required(VERSION 3.0.2)
+project(ojt_5)
+
+find_package(catkin REQUIRED COMPONENTS
+  roscpp
+  sensor_msgs
+  image_transport
+  cv_bridge
+)
+
+find_package(OpenCV REQUIRED)
+
+catkin_package(
+#  INCLUDE_DIRS include
+#  LIBRARIES ojt_5
+  CATKIN_DEPENDS roscpp sensor_msgs image_transport cv_bridge
+#  DEPENDS system_lib
+)
+
+include_directories(
+  include
+  ${catkin_INCLUDE_DIRS}
+  ${OpenCV_INCLUDE_DIRS}
+)
+
+add_library(sensor_msgs_img src/sensor_msgs_img.cpp)
+
+add_executable(image_sub_node src/image_sub_node.cpp)
+add_executable(comp_sub_node src/comp_sub_node.cpp)
+add_executable(comp_pub_node src/comp_pub_node.cpp)
+
+target_link_libraries(image_sub_node sensor_msgs_img ${catkin_LIBRARIES})
+target_link_libraries(comp_sub_node sensor_msgs_img ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+target_link_libraries(comp_pub_node sensor_msgs_img ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+target_link_libraries(sensor_msgs_img ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})

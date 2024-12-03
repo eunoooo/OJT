@@ -13,7 +13,8 @@
                 "/home/chaeeun/test_ws/src/beginner_tutorials/include/**",
                 "/home/chaeeun/catkin_ws/src/ros_tutorials/turtlesim/include/**",
                 "/usr/include/**",
-                "/opt/ros/noetic/include"
+                "/opt/ros/noetic/include",
+                "${workspaceFolder}/src/ojt_4/include"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

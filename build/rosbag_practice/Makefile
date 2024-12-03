@@ -168,36 +168,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-.PHONY : rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_eus: rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_eus
-
-# fast build rule for target.
-sensor_msgs_generate_messages_eus/fast:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
-.PHONY : sensor_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_cpp: rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
 rosbag_practice/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
 	cd /home/chaeeun/test_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbag_practice/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 .PHONY : rosbag_practice/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
@@ -256,36 +226,6 @@ nav_msgs_generate_messages_eus: rosbag_practice/CMakeFiles/nav_msgs_generate_mes
 nav_msgs_generate_messages_eus/fast:
 	cd /home/chaeeun/test_ws/build && $(MAKE) -f rosbag_practice/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make rosbag_practice/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
 .PHONY : nav_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-.PHONY : rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_nodejs: rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-sensor_msgs_generate_messages_nodejs/fast:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
-.PHONY : sensor_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_lisp: rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_lisp/fast:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-.PHONY : sensor_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 rosbag_practice/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
@@ -438,21 +378,6 @@ servinggo_topic_sub/fast:
 .PHONY : servinggo_topic_sub/fast
 
 # Convenience name for target.
-rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_py: rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_py
-
-# fast build rule for target.
-sensor_msgs_generate_messages_py/fast:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make rosbag_practice/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-.PHONY : sensor_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 rosbag_practice/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule:
 	cd /home/chaeeun/test_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbag_practice/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 .PHONY : rosbag_practice/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
@@ -520,15 +445,11 @@ help:
 	@echo "... install"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... sensor_msgs_generate_messages_eus"
-	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_nodejs"
 	@echo "... test"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... nav_msgs_generate_messages_eus"
-	@echo "... sensor_msgs_generate_messages_nodejs"
-	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... nav_msgs_generate_messages_cpp"
 	@echo "... nav_msgs_generate_messages_lisp"
 	@echo "... nav_msgs_generate_messages_nodejs"
@@ -540,7 +461,6 @@ help:
 	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_cpp"
 	@echo "... servinggo_topic_sub"
-	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... actionlib_msgs_generate_messages_eus"
 	@echo "... tf2_msgs_generate_messages_lisp"
 	@echo "... src/servinggo_topic_sub.o"

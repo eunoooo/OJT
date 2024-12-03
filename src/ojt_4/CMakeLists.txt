@@ -9,7 +9,10 @@ project(ojt_4)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   roscpp
+  std_msgs
   geometry_msgs
+  turtlesim
+  std_srvs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -104,7 +107,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES ojt_4
-#  CATKIN_DEPENDS roscpp
+  CATKIN_DEPENDS roscpp std_msgs geometry_msgs turtlesim std_srvs
 #  DEPENDS system_lib
 )
 
