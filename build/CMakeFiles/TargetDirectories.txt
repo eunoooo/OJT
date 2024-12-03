@@ -88,8 +88,8 @@
 /home/chaeeun/test_ws/build/ojt_5/CMakeFiles/rebuild_cache.dir
 /home/chaeeun/test_ws/build/ojt_5/CMakeFiles/edit_cache.dir
 /home/chaeeun/test_ws/build/ojt_5/CMakeFiles/test.dir
-/home/chaeeun/test_ws/build/ojt_5/CMakeFiles/comp_pub_node.dir
 /home/chaeeun/test_ws/build/ojt_5/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
+/home/chaeeun/test_ws/build/ojt_5/CMakeFiles/comp_pub_node.dir
 /home/chaeeun/test_ws/build/ojt_5/CMakeFiles/install/local.dir
 /home/chaeeun/test_ws/build/ojt_5/CMakeFiles/geometry_msgs_generate_messages_eus.dir
 /home/chaeeun/test_ws/build/ojt_5/CMakeFiles/install.dir
@@ -100,7 +100,6 @@
 /home/chaeeun/test_ws/build/ojt_5/CMakeFiles/sensor_msgs_generate_messages_py.dir
 /home/chaeeun/test_ws/build/ojt_5/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
 /home/chaeeun/test_ws/build/ojt_5/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
-/home/chaeeun/test_ws/build/ojt_5/CMakeFiles/sensor_msgs_img.dir
 /home/chaeeun/test_ws/build/ojt_5/CMakeFiles/sensor_msgs_generate_messages_eus.dir
 /home/chaeeun/test_ws/build/ojt_5/CMakeFiles/image_sub_node.dir
 /home/chaeeun/test_ws/build/ojt_5/CMakeFiles/comp_sub_node.dir

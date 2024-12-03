@@ -727,19 +727,6 @@ beginner_tutorials_genpy/fast:
 .PHONY : beginner_tutorials_genpy/fast
 
 #=============================================================================
-# Target rules for targets named comp_pub_node
-
-# Build rule for target.
-comp_pub_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 comp_pub_node
-.PHONY : comp_pub_node
-
-# fast build rule for target.
-comp_pub_node/fast:
-	$(MAKE) -f ojt_5/CMakeFiles/comp_pub_node.dir/build.make ojt_5/CMakeFiles/comp_pub_node.dir/build
-.PHONY : comp_pub_node/fast
-
-#=============================================================================
 # Target rules for targets named sensor_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -751,6 +738,19 @@ sensor_msgs_generate_messages_cpp: cmake_check_build_system
 sensor_msgs_generate_messages_cpp/fast:
 	$(MAKE) -f ojt_5/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make ojt_5/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named comp_pub_node
+
+# Build rule for target.
+comp_pub_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 comp_pub_node
+.PHONY : comp_pub_node
+
+# fast build rule for target.
+comp_pub_node/fast:
+	$(MAKE) -f ojt_5/CMakeFiles/comp_pub_node.dir/build.make ojt_5/CMakeFiles/comp_pub_node.dir/build
+.PHONY : comp_pub_node/fast
 
 #=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_eus
@@ -855,19 +855,6 @@ geometry_msgs_generate_messages_nodejs: cmake_check_build_system
 geometry_msgs_generate_messages_nodejs/fast:
 	$(MAKE) -f ojt_5/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make ojt_5/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 .PHONY : geometry_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named sensor_msgs_img
-
-# Build rule for target.
-sensor_msgs_img: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_img
-.PHONY : sensor_msgs_img
-
-# fast build rule for target.
-sensor_msgs_img/fast:
-	$(MAKE) -f ojt_5/CMakeFiles/sensor_msgs_img.dir/build.make ojt_5/CMakeFiles/sensor_msgs_img.dir/build
-.PHONY : sensor_msgs_img/fast
 
 #=============================================================================
 # Target rules for targets named sensor_msgs_generate_messages_eus
@@ -1315,8 +1302,8 @@ help:
 	@echo "... beginner_tutorials_generate_messages_eus"
 	@echo "... beginner_tutorials_generate_messages_py"
 	@echo "... beginner_tutorials_genpy"
-	@echo "... comp_pub_node"
 	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... comp_pub_node"
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... sensor_msgs_generate_messages_lisp"
@@ -1325,7 +1312,6 @@ help:
 	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_nodejs"
-	@echo "... sensor_msgs_img"
 	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... image_sub_node"
 	@echo "... comp_sub_node"

@@ -6,27 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/chaeeun/test_ws/src/ojt_5/include/ojt_5/sensor_msgs_img.hpp
-ros/ros.h
-/home/chaeeun/test_ws/src/ojt_5/include/ojt_5/ros/ros.h
-iostream
-/home/chaeeun/test_ws/src/ojt_5/include/ojt_5/iostream
-sensor_msgs/Image.h
-/home/chaeeun/test_ws/src/ojt_5/include/ojt_5/sensor_msgs/Image.h
-sensor_msgs/CompressedImage.h
-/home/chaeeun/test_ws/src/ojt_5/include/ojt_5/sensor_msgs/CompressedImage.h
-image_transport/image_transport.h
-/home/chaeeun/test_ws/src/ojt_5/include/ojt_5/image_transport/image_transport.h
-cv_bridge/cv_bridge.h
-/home/chaeeun/test_ws/src/ojt_5/include/ojt_5/cv_bridge/cv_bridge.h
-opencv2/opencv.hpp
-/home/chaeeun/test_ws/src/ojt_5/include/ojt_5/opencv2/opencv.hpp
-vector
-/home/chaeeun/test_ws/src/ojt_5/include/ojt_5/vector
-
 /home/chaeeun/test_ws/src/ojt_5/src/comp_pub_node.cpp
-ojt_5/sensor_msgs_img.hpp
-/home/chaeeun/test_ws/src/ojt_5/src/ojt_5/sensor_msgs_img.hpp
+ros/ros.h
+/home/chaeeun/test_ws/src/ojt_5/src/ros/ros.h
+iostream
+/home/chaeeun/test_ws/src/ojt_5/src/iostream
+sensor_msgs/Image.h
+/home/chaeeun/test_ws/src/ojt_5/src/sensor_msgs/Image.h
+sensor_msgs/CompressedImage.h
+/home/chaeeun/test_ws/src/ojt_5/src/sensor_msgs/CompressedImage.h
+image_transport/image_transport.h
+/home/chaeeun/test_ws/src/ojt_5/src/image_transport/image_transport.h
+cv_bridge/cv_bridge.h
+/home/chaeeun/test_ws/src/ojt_5/src/cv_bridge/cv_bridge.h
+opencv2/opencv.hpp
+/home/chaeeun/test_ws/src/ojt_5/src/opencv2/opencv.hpp
+vector
+/home/chaeeun/test_ws/src/ojt_5/src/vector
 
 /opt/ros/noetic/include/cv_bridge/cv_bridge.h
 sensor_msgs/Image.h

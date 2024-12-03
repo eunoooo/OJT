@@ -23,13 +23,17 @@ include_directories(
   ${OpenCV_INCLUDE_DIRS}
 )
 
-add_library(sensor_msgs_img src/sensor_msgs_img.cpp)
+# add_library(sensor_msgs_img src/sensor_msgs_img.cpp)
 
 add_executable(image_sub_node src/image_sub_node.cpp)
 add_executable(comp_sub_node src/comp_sub_node.cpp)
 add_executable(comp_pub_node src/comp_pub_node.cpp)
 
-target_link_libraries(image_sub_node sensor_msgs_img ${catkin_LIBRARIES})
-target_link_libraries(comp_sub_node sensor_msgs_img ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
-target_link_libraries(comp_pub_node sensor_msgs_img ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
-target_link_libraries(sensor_msgs_img ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+# target_link_libraries(image_sub_node sensor_msgs_img ${catkin_LIBRARIES})
+# target_link_libraries(comp_sub_node sensor_msgs_img ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+# target_link_libraries(comp_pub_node sensor_msgs_img ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+# target_link_libraries(sensor_msgs_img ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+
+target_link_libraries(image_sub_node ${catkin_LIBRARIES})
+target_link_libraries(comp_sub_node ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+target_link_libraries(comp_pub_node ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})

@@ -168,21 +168,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-ojt_5/CMakeFiles/comp_pub_node.dir/rule:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_5/CMakeFiles/comp_pub_node.dir/rule
-.PHONY : ojt_5/CMakeFiles/comp_pub_node.dir/rule
-
-# Convenience name for target.
-comp_pub_node: ojt_5/CMakeFiles/comp_pub_node.dir/rule
-
-.PHONY : comp_pub_node
-
-# fast build rule for target.
-comp_pub_node/fast:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_5/CMakeFiles/comp_pub_node.dir/build.make ojt_5/CMakeFiles/comp_pub_node.dir/build
-.PHONY : comp_pub_node/fast
-
-# Convenience name for target.
 ojt_5/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
 	cd /home/chaeeun/test_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_5/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 .PHONY : ojt_5/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
@@ -196,6 +181,21 @@ sensor_msgs_generate_messages_cpp: ojt_5/CMakeFiles/sensor_msgs_generate_message
 sensor_msgs_generate_messages_cpp/fast:
 	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_5/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make ojt_5/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+ojt_5/CMakeFiles/comp_pub_node.dir/rule:
+	cd /home/chaeeun/test_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_5/CMakeFiles/comp_pub_node.dir/rule
+.PHONY : ojt_5/CMakeFiles/comp_pub_node.dir/rule
+
+# Convenience name for target.
+comp_pub_node: ojt_5/CMakeFiles/comp_pub_node.dir/rule
+
+.PHONY : comp_pub_node
+
+# fast build rule for target.
+comp_pub_node/fast:
+	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_5/CMakeFiles/comp_pub_node.dir/build.make ojt_5/CMakeFiles/comp_pub_node.dir/build
+.PHONY : comp_pub_node/fast
 
 # Convenience name for target.
 ojt_5/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
@@ -316,21 +316,6 @@ geometry_msgs_generate_messages_nodejs: ojt_5/CMakeFiles/geometry_msgs_generate_
 geometry_msgs_generate_messages_nodejs/fast:
 	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_5/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make ojt_5/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 .PHONY : geometry_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-ojt_5/CMakeFiles/sensor_msgs_img.dir/rule:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_5/CMakeFiles/sensor_msgs_img.dir/rule
-.PHONY : ojt_5/CMakeFiles/sensor_msgs_img.dir/rule
-
-# Convenience name for target.
-sensor_msgs_img: ojt_5/CMakeFiles/sensor_msgs_img.dir/rule
-
-.PHONY : sensor_msgs_img
-
-# fast build rule for target.
-sensor_msgs_img/fast:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_5/CMakeFiles/sensor_msgs_img.dir/build.make ojt_5/CMakeFiles/sensor_msgs_img.dir/build
-.PHONY : sensor_msgs_img/fast
 
 # Convenience name for target.
 ojt_5/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
@@ -458,33 +443,6 @@ src/image_sub_node.cpp.s:
 	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_5/CMakeFiles/image_sub_node.dir/build.make ojt_5/CMakeFiles/image_sub_node.dir/src/image_sub_node.cpp.s
 .PHONY : src/image_sub_node.cpp.s
 
-src/sensor_msgs_img.o: src/sensor_msgs_img.cpp.o
-
-.PHONY : src/sensor_msgs_img.o
-
-# target to build an object file
-src/sensor_msgs_img.cpp.o:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_5/CMakeFiles/sensor_msgs_img.dir/build.make ojt_5/CMakeFiles/sensor_msgs_img.dir/src/sensor_msgs_img.cpp.o
-.PHONY : src/sensor_msgs_img.cpp.o
-
-src/sensor_msgs_img.i: src/sensor_msgs_img.cpp.i
-
-.PHONY : src/sensor_msgs_img.i
-
-# target to preprocess a source file
-src/sensor_msgs_img.cpp.i:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_5/CMakeFiles/sensor_msgs_img.dir/build.make ojt_5/CMakeFiles/sensor_msgs_img.dir/src/sensor_msgs_img.cpp.i
-.PHONY : src/sensor_msgs_img.cpp.i
-
-src/sensor_msgs_img.s: src/sensor_msgs_img.cpp.s
-
-.PHONY : src/sensor_msgs_img.s
-
-# target to generate assembly for a file
-src/sensor_msgs_img.cpp.s:
-	cd /home/chaeeun/test_ws/build && $(MAKE) -f ojt_5/CMakeFiles/sensor_msgs_img.dir/build.make ojt_5/CMakeFiles/sensor_msgs_img.dir/src/sensor_msgs_img.cpp.s
-.PHONY : src/sensor_msgs_img.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -496,8 +454,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... comp_pub_node"
 	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... comp_pub_node"
 	@echo "... install/local"
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... install"
@@ -508,7 +466,6 @@ help:
 	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_nodejs"
-	@echo "... sensor_msgs_img"
 	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... image_sub_node"
 	@echo "... comp_sub_node"
@@ -521,9 +478,6 @@ help:
 	@echo "... src/image_sub_node.o"
 	@echo "... src/image_sub_node.i"
 	@echo "... src/image_sub_node.s"
-	@echo "... src/sensor_msgs_img.o"
-	@echo "... src/sensor_msgs_img.i"
-	@echo "... src/sensor_msgs_img.s"
 .PHONY : help
 
 
