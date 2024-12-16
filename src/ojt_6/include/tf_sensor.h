@@ -5,7 +5,10 @@
 #include <sensor_msgs/LaserScan.h>
 #include <sensor_msgs/PointCloud2.h>
 #include <tf2_ros/transform_listener.h>
-#include <urdf/model.h>
+#include <geometry_msgs/TransformStamped.h>
+#include <cmath>
+#include <iostream>
+
 
 class TFSensor {
     private:
@@ -20,10 +23,11 @@ class TFSensor {
     ros::Subscriber sub_scan1;
     ros::Subscriber sub_points;
 
-    
+    ros::Publisher pub_transform_scan1;
 
 
-
+    float angle = 0;
+    float distance = 0;
 
     public:
     TFSensor();

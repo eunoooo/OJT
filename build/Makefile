@@ -883,6 +883,45 @@ drive_main/fast:
 .PHONY : drive_main/fast
 
 #=============================================================================
+# Target rules for targets named comp_pub_node
+
+# Build rule for target.
+comp_pub_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 comp_pub_node
+.PHONY : comp_pub_node
+
+# fast build rule for target.
+comp_pub_node/fast:
+	$(MAKE) -f ojt_5/CMakeFiles/comp_pub_node.dir/build.make ojt_5/CMakeFiles/comp_pub_node.dir/build
+.PHONY : comp_pub_node/fast
+
+#=============================================================================
+# Target rules for targets named comp_sub_node
+
+# Build rule for target.
+comp_sub_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 comp_sub_node
+.PHONY : comp_sub_node
+
+# fast build rule for target.
+comp_sub_node/fast:
+	$(MAKE) -f ojt_5/CMakeFiles/comp_sub_node.dir/build.make ojt_5/CMakeFiles/comp_sub_node.dir/build
+.PHONY : comp_sub_node/fast
+
+#=============================================================================
+# Target rules for targets named image_sub_node
+
+# Build rule for target.
+image_sub_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 image_sub_node
+.PHONY : image_sub_node
+
+# fast build rule for target.
+image_sub_node/fast:
+	$(MAKE) -f ojt_5/CMakeFiles/image_sub_node.dir/build.make ojt_5/CMakeFiles/image_sub_node.dir/build
+.PHONY : image_sub_node/fast
+
+#=============================================================================
 # Target rules for targets named tf2_msgs_generate_messages_py
 
 # Build rule for target.
@@ -1951,6 +1990,9 @@ help:
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... ls01b_v2"
 	@echo "... drive_main"
+	@echo "... comp_pub_node"
+	@echo "... comp_sub_node"
+	@echo "... image_sub_node"
 	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_nodejs"
 	@echo "... actionlib_msgs_generate_messages_lisp"

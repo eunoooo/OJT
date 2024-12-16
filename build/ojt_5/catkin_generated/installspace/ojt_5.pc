@@ -1,0 +1,8 @@
+prefix=/home/chaeeun/OJT/install
+
+Name: ojt_5
+Description: Description of ojt_5
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs image_transport cv_bridge

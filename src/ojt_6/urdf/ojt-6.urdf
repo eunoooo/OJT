@@ -12,13 +12,14 @@
 
     <link name="front_laser"/> 
 
-    <joint name="rear_laser_joint" type="fixed"> 
+    <!--
+     <joint name="rear_laser_joint" type="fixed"> 
         <parent link="base_link"/>
         <child link="rear_laser"/>
         <origin rpy="0 0 -2.3562" xyz="-0.1455 -0.067 0.03"/>
     </joint>
-
     <link name="rear_laser"/> 
+    -->
 
     <joint name="camera_joint" type="fixed"> 
         <parent link="base_link"/>

@@ -1,2 +1,2 @@
-OrbbecSDK_ROS1:basic_tutorial:beginner_tutorials:ls01b_v2:ojt_4:ojt_6:rosbag_practice
+OrbbecSDK_ROS1:basic_tutorial:beginner_tutorials:ls01b_v2:ojt_4:ojt_5:ojt_6:rosbag_practice
 -DCATKIN_DEVEL_PREFIX=/home/chaeeun/OJT/devel -DCMAKE_INSTALL_PREFIX=/home/chaeeun/OJT/install -G Unix Makefiles

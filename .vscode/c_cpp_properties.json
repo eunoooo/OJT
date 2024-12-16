@@ -13,13 +13,14 @@
                 "/home/chaeeun/test_ws/src/beginner_tutorials/include/**",
                 "/home/chaeeun/catkin_ws/src/ros_tutorials/turtlesim/include/**",
                 "/usr/include/**",
-                "/opt/ros/noetic/include"
+                "/opt/ros/noetic/include",
+                "${workspaceFolder}/src/ojt_6/include"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",
             "compilerPath": "/usr/bin/gcc",
-            "cStandard": "gnu11",
-            "cppStandard": "c++14"
+            "cStandard": "c17",
+            "cppStandard": "c++17"
         }
     ],
     "version": 4
