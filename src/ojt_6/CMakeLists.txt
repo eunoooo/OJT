@@ -207,6 +207,6 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
-add_executable(main src/main.cpp src/transformation_sensor.cpp)
+add_executable(transformation_main src/transformation_main.cpp src/transformation_sensor.cpp)
 
-target_link_libraries(main ${catkin_LIBRARIES} tf2 tf2_ros)
+target_link_libraries(transformation_main ${catkin_LIBRARIES} tf2 tf2_ros)

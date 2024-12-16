@@ -7,6 +7,7 @@
 #include <tf2_ros/transform_listener.h>
 #include <geometry_msgs/PointStamped.h>  // PointStamped 포함
 #include <geometry_msgs/TransformStamped.h>
+#include <pcl_ros/point_cloud.h>
 #include <cmath>
 #include <iostream>
 
@@ -22,7 +23,6 @@ class TFSensor {
     tf2_ros::Buffer tfBuffer;  
     tf2_ros::TransformListener tfListener; 
 
-    
     ros::Subscriber sub_scan;
     ros::Subscriber sub_points;
 
@@ -31,6 +31,13 @@ class TFSensor {
 
     float angle = 0;
     float distance = 0;
+
+    float x, y, z;
+
+    // 변환된 포인트 클라우드를 담을 객체
+    pcl::PointCloud<pcl::PointXYZ> cloud;
+
+    sensor_msgs::PointCloud2 lidar_pointcloud;
 
     void scanCallback(const sensor_msgs::LaserScan::ConstPtr& msg);
     // void pointsCallback(const sensor_msgs::PointCloud2::ConstPtr& msg);
