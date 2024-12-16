@@ -1,7 +1,7 @@
-#include "tf_sensor.h"
+#include "ojt_6/tf_sensor.h"
 
-int main(int argc, char argv){
-    ros::init(argc, argv, "transformation_sensor");
+int main(int argc, char **argv){
+    ros::init(argc, argv, "main");
    
     TFSensor tfsensor;
 

@@ -9,7 +9,10 @@ project(ojt_6)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   roscpp
-
+  sensor_msgs
+  tf2
+  tf2_ros
+  geometry_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -104,7 +107,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES ojt_6
-#  CATKIN_DEPENDS roscpp urdf
+  CATKIN_DEPENDS roscpp sensor_msgs tf2 tf2_ros geometry_msgs 
 #  DEPENDS system_lib
 )
 
@@ -115,7 +118,7 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
+  include
   ${catkin_INCLUDE_DIRS}
 )
 
@@ -203,3 +206,7 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+add_executable(main src/main.cpp src/transformation_sensor.cpp)
+
+target_link_libraries(main ${catkin_LIBRARIES} tf2 tf2_ros)

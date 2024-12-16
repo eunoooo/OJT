@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/chaeeun/test_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/chaeeun/OJT/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_79a84/fast && /usr/bin/make -f CMakeFiles/cmTC_79a84.dir/build.make CMakeFiles/cmTC_79a84.dir/build
-make[1]: Entering directory '/home/chaeeun/test_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_79a84.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_79a84.dir/src.c.o   -c /home/chaeeun/test_ws/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_79a84
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79a84.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_79a84.dir/src.c.o  -o cmTC_79a84 
-/usr/bin/ld: CMakeFiles/cmTC_79a84.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_7ac17/fast && /usr/bin/make -f CMakeFiles/cmTC_7ac17.dir/build.make CMakeFiles/cmTC_7ac17.dir/build
+make[1]: Entering directory '/home/chaeeun/OJT/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ac17.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_7ac17.dir/src.c.o   -c /home/chaeeun/OJT/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7ac17
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ac17.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_7ac17.dir/src.c.o  -o cmTC_7ac17 
+/usr/bin/ld: CMakeFiles/cmTC_7ac17.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_79a84.dir/build.make:87: cmTC_79a84] Error 1
-make[1]: Leaving directory '/home/chaeeun/test_ws/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_79a84/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_7ac17.dir/build.make:87: cmTC_7ac17] Error 1
+make[1]: Leaving directory '/home/chaeeun/OJT/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7ac17/fast] Error 2
 
 
 Source file was:
@@ -39,20 +39,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/chaeeun/test_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/chaeeun/OJT/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e9392/fast && /usr/bin/make -f CMakeFiles/cmTC_e9392.dir/build.make CMakeFiles/cmTC_e9392.dir/build
-make[1]: Entering directory '/home/chaeeun/test_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e9392.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e9392.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_e9392
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9392.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e9392.dir/CheckFunctionExists.c.o  -o cmTC_e9392  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_1c245/fast && /usr/bin/make -f CMakeFiles/cmTC_1c245.dir/build.make CMakeFiles/cmTC_1c245.dir/build
+make[1]: Entering directory '/home/chaeeun/OJT/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c245.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1c245.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1c245
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c245.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1c245.dir/CheckFunctionExists.c.o  -o cmTC_1c245  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_e9392.dir/build.make:87: cmTC_e9392] Error 1
-make[1]: Leaving directory '/home/chaeeun/test_ws/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_e9392/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_1c245.dir/build.make:87: cmTC_1c245] Error 1
+make[1]: Leaving directory '/home/chaeeun/OJT/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1c245/fast] Error 2
 
 
 

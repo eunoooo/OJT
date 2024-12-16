@@ -1,27 +1,26 @@
-#include "tf_sensor.h"
+#include "ojt_6/tf_sensor.h"
 
-TFSensor::TFSensor(){
-    sub_scan1 = n.subscribe("/scan1", 10, scan1Callback);
-    sub_points = n.subscribe("/camera/depth/points", 10, pointsCallback);
+TFSensor::TFSensor() : tfListener(tfBuffer) {
 
-    pub_transform_scan1 = n.advertise<sensor_msgs::PointCloud2>("/ojt/transform/scan1", 10);
+    sub_scan = n.subscribe("/scan", 10, &TFSensor::scanCallback, this);
+   // sub_points = n.subscribe("/camera/depth/points", 10, pointsCallback);
 
-    front_lidar_point = getPointFromLink(front_laser, "front_laser");
-    camera_point = getPointFromLink(camera_link, "camera_link");
+    // pub_transform_scan1 = n.advertise<sensor_msgs::PointCloud2>("/ojt/transform/scan", 10);
+    pub_transform_scan = n.advertise<geometry_msgs::PointStamped>("/ojt/transform/scan", 10);
 }
 
-TFSensor::~TFSeneor(){
+TFSensor::~TFSensor(){
 }
 
 // todo scan1 이랑 pointcloud 분리하기
-void scan1Callback(const sensor_msgs::LaserScan::ConstPtr& msg){
+void TFSensor::scanCallback(const sensor_msgs::LaserScan::ConstPtr& msg){
     geometry_msgs::TransformStamped transformStamped;
     geometry_msgs::PointStamped lidar_point, lidar_to_base_point;
     
 
     transformStamped = tfBuffer.lookupTransform("base_link", "front_laser", ros::Time(0));
 
-    for(int i = 0 ; i < msg->range.size() ; i++){
+    for(int i = 0 ; i < msg->ranges.size() ; i++){
         angle = msg->angle_min + (msg->angle_increment * i);
         distance = msg->ranges[i];
 
@@ -36,14 +35,14 @@ void scan1Callback(const sensor_msgs::LaserScan::ConstPtr& msg){
         tf2::doTransform(lidar_point, lidar_to_base_point, transformStamped);
 
         // todo lidar_to_base_point 를 PointCloud2 type으로 변환하기
-
+ 
         //todo publish
-        // pub_transform_scan1.publish();
+        pub_transform_scan.publish(lidar_to_base_point);
     }    
 }
 
 /*
-void pointsCallback(const sensor_msgs::PointCloud2::ConstPtr& msg){
+void TFSensor::pointsCallback(const sensor_msgs::PointCloud2::ConstPtr& msg){
 
 }
 */
