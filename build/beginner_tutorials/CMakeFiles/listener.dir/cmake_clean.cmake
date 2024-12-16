@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/chaeeun/test_ws/devel/lib/beginner_tutorials/listener"
-  "/home/chaeeun/test_ws/devel/lib/beginner_tutorials/listener.pdb"
+  "/home/chaeeun/OJT/devel/lib/beginner_tutorials/listener"
+  "/home/chaeeun/OJT/devel/lib/beginner_tutorials/listener.pdb"
   "CMakeFiles/listener.dir/src/listener.cpp.o"
 )
 

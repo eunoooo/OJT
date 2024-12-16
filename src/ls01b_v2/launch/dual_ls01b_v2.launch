@@ -1,0 +1,32 @@
+<launch>
+    <node name="front_laser" pkg="ls01b_v2" type="ls01b_v2" output="screen" respawn="true" >
+        <param name="scan_topic" value="scan1"/>         
+        <param name="frame_id" value="front_laser"/>     
+        <param name="serial_port" value="/dev/ttyUSB1"/> 
+        <param name="baud_rate" value="460800" />        
+        <param name="angle_resolution" value="0.25"/>    
+        <param name="max_range" value="14.0"/>        
+        <param name="zero_as_max" value="false"/>       
+        <param name="min_as_zero" value="false"/>       
+        <param name="rpm" value="600"/>
+        <param name="angle_disable_min_0" value="0"/>
+        <param name="angle_disable_max_0" value="0"/>
+        <param name="angle_compensate" value="true"/>
+    </node>
+
+    <node name="rear_laser" pkg="ls01b_v2" type="ls01b_v2" output="screen" respawn="true" >
+        <param name="scan_topic" value="scan2"/>        
+        <param name="frame_id" value="rear_laser"/>     
+        <param name="serial_port" value="/dev/ttyUSB0"/> 
+        <param name="baud_rate" value="460800" />        
+        <param name="angle_resolution" value="0.25"/>    
+        <param name="max_range" value="14.0"/>        
+        <param name="zero_as_max" value="false"/>        
+        <param name="min_as_zero" value="false"/>        
+        <param name="rpm" value="600"/>
+        <param name="angle_disable_min_0" value="0"/>
+        <param name="angle_disable_max_0" value="0"/>
+        <param name="angle_compensate" value="true"/>
+    </node>
+</launch>
+

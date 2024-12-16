@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chaeeun/test_ws/src
+CMAKE_SOURCE_DIR = /home/chaeeun/OJT/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chaeeun/test_ws/build
+CMAKE_BINARY_DIR = /home/chaeeun/OJT/build
 
 # Utility rule file for geometry_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ ojt_4/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build: geometry_msgs
 .PHONY : ojt_4/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 
 ojt_4/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/chaeeun/test_ws/build/ojt_4 && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/chaeeun/OJT/build/ojt_4 && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : ojt_4/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
 
 ojt_4/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/chaeeun/test_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chaeeun/test_ws/src /home/chaeeun/test_ws/src/ojt_4 /home/chaeeun/test_ws/build /home/chaeeun/test_ws/build/ojt_4 /home/chaeeun/test_ws/build/ojt_4/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chaeeun/OJT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chaeeun/OJT/src /home/chaeeun/OJT/src/ojt_4 /home/chaeeun/OJT/build /home/chaeeun/OJT/build/ojt_4 /home/chaeeun/OJT/build/ojt_4/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ojt_4/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
 

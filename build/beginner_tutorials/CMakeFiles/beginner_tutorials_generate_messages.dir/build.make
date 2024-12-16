@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chaeeun/test_ws/src
+CMAKE_SOURCE_DIR = /home/chaeeun/OJT/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chaeeun/test_ws/build
+CMAKE_BINARY_DIR = /home/chaeeun/OJT/build
 
 # Utility rule file for beginner_tutorials_generate_messages.
 
@@ -63,10 +63,10 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages.dir/build: be
 .PHONY : beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages.dir/build
 
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages.dir/clean:
-	cd /home/chaeeun/test_ws/build/beginner_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/beginner_tutorials_generate_messages.dir/cmake_clean.cmake
+	cd /home/chaeeun/OJT/build/beginner_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/beginner_tutorials_generate_messages.dir/cmake_clean.cmake
 .PHONY : beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages.dir/clean
 
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages.dir/depend:
-	cd /home/chaeeun/test_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chaeeun/test_ws/src /home/chaeeun/test_ws/src/beginner_tutorials /home/chaeeun/test_ws/build /home/chaeeun/test_ws/build/beginner_tutorials /home/chaeeun/test_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chaeeun/OJT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chaeeun/OJT/src /home/chaeeun/OJT/src/beginner_tutorials /home/chaeeun/OJT/build /home/chaeeun/OJT/build/beginner_tutorials /home/chaeeun/OJT/build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages.dir/depend
 

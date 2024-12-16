@@ -1,0 +1,8 @@
+<launch>
+    <param name="robot_description" textfile="$(find ojt_6)/urdf/ojt-6.urdf" />
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+    
+    <include file="$(find orbbec_camera)/launch/astra_stereo_u3.launch"/>
+    <include file="$(find ls01b_v2)/launch/dual_ls01b_v2.launch"/>
+
+</launch>

@@ -1,0 +1,14 @@
+digraph G {
+node [shape=box];
+"base_link" [label="base_link"];
+"depth_camera_link" [label="depth_camera_link"];
+"front_lidar_link" [label="front_lidar_link"];
+"rear_lidar_link" [label="rear_lidar_link"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"base_link" -> "depth_camera_joint" [label="xyz: 0 0 0.1 \nrpy: 0 -0 0"]
+"depth_camera_joint" -> "depth_camera_link"
+"base_link" -> "front_lidar_joint" [label="xyz: 0 0 0.1 \nrpy: 0 -0 0"]
+"front_lidar_joint" -> "front_lidar_link"
+"base_link" -> "rear_lidar_joint" [label="xyz: 0 0 0.1 \nrpy: 0 -0 0"]
+"rear_lidar_joint" -> "rear_lidar_link"
+}

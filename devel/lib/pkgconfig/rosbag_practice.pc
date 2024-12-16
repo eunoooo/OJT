@@ -1,4 +1,4 @@
-prefix=/home/chaeeun/test_ws/devel
+prefix=/home/chaeeun/OJT/devel
 
 Name: rosbag_practice
 Description: Description of rosbag_practice

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/chaeeun/test_ws/devel/lib/rosbag_practice/servinggo_topic_sub"
-  "/home/chaeeun/test_ws/devel/lib/rosbag_practice/servinggo_topic_sub.pdb"
+  "/home/chaeeun/OJT/devel/lib/rosbag_practice/servinggo_topic_sub"
+  "/home/chaeeun/OJT/devel/lib/rosbag_practice/servinggo_topic_sub.pdb"
   "CMakeFiles/servinggo_topic_sub.dir/src/servinggo_topic_sub.cpp.o"
 )
 

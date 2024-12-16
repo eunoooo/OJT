@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<robot name="ojt_6">
+
+    <link name="base_link"/>
+    
+
+    <joint name="front_laser_joint" type="fixed"> 
+        <parent link="base_link"/>
+        <child link="front_laser"/>
+        <origin rpy="0 0 0.7854" xyz="0.1455 0.067 0.03"/>
+    </joint>
+
+    <link name="front_laser"/> 
+
+    <joint name="rear_laser_joint" type="fixed"> 
+        <parent link="base_link"/>
+        <child link="rear_laser"/>
+        <origin rpy="0 0 -2.3562" xyz="-0.1455 -0.067 0.03"/>
+    </joint>
+
+    <link name="rear_laser"/> 
+
+    <joint name="camera_joint" type="fixed"> 
+        <parent link="base_link"/>
+        <child link="camera_link"/>
+        <origin rpy="0 0 0" xyz="0.192 0 -0.011"/>
+    </joint>
+
+    <link name="camera_link"/> 
+
+</robot>

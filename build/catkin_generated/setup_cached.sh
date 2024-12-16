@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/chaeeun/test_ws/build'
+export PWD='/home/chaeeun/OJT/build'

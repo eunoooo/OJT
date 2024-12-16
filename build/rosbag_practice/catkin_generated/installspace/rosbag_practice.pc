@@ -1,4 +1,4 @@
-prefix=/home/chaeeun/test_ws/install
+prefix=/home/chaeeun/OJT/install
 
 Name: rosbag_practice
 Description: Description of rosbag_practice

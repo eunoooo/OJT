@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/chaeeun/test_ws/devel/lib/beginner_tutorials/talker"
-  "/home/chaeeun/test_ws/devel/lib/beginner_tutorials/talker.pdb"
+  "/home/chaeeun/OJT/devel/lib/beginner_tutorials/talker"
+  "/home/chaeeun/OJT/devel/lib/beginner_tutorials/talker.pdb"
   "CMakeFiles/talker.dir/src/talker.cpp.o"
 )
 

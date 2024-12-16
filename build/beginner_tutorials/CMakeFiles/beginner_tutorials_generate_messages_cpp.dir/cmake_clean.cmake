@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/chaeeun/test_ws/devel/include/beginner_tutorials/AddTwoInts.h"
-  "/home/chaeeun/test_ws/devel/include/beginner_tutorials/Num.h"
+  "/home/chaeeun/OJT/devel/include/beginner_tutorials/AddTwoInts.h"
+  "/home/chaeeun/OJT/devel/include/beginner_tutorials/Num.h"
   "CMakeFiles/beginner_tutorials_generate_messages_cpp"
 )
 

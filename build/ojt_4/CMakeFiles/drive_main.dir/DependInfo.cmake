@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chaeeun/test_ws/src/ojt_4/src/drive_main.cpp" "/home/chaeeun/test_ws/build/ojt_4/CMakeFiles/drive_main.dir/src/drive_main.cpp.o"
-  "/home/chaeeun/test_ws/src/ojt_4/src/turtlesim_drive.cpp" "/home/chaeeun/test_ws/build/ojt_4/CMakeFiles/drive_main.dir/src/turtlesim_drive.cpp.o"
+  "/home/chaeeun/OJT/src/ojt_4/src/drive_main.cpp" "/home/chaeeun/OJT/build/ojt_4/CMakeFiles/drive_main.dir/src/drive_main.cpp.o"
+  "/home/chaeeun/OJT/src/ojt_4/src/turtlesim_drive.cpp" "/home/chaeeun/OJT/build/ojt_4/CMakeFiles/drive_main.dir/src/turtlesim_drive.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,7 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/chaeeun/test_ws/src/ojt_4/include"
+  "/home/chaeeun/OJT/src/ojt_4/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

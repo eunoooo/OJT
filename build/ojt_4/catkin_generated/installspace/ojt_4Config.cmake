@@ -67,14 +67,14 @@ set(ojt_4_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(ojt_4_SOURCE_PREFIX /home/chaeeun/test_ws/src/ojt_4)
-  set(ojt_4_DEVEL_PREFIX /home/chaeeun/test_ws/devel)
+  set(ojt_4_SOURCE_PREFIX /home/chaeeun/OJT/src/ojt_4)
+  set(ojt_4_DEVEL_PREFIX /home/chaeeun/OJT/devel)
   set(ojt_4_INSTALL_PREFIX "")
   set(ojt_4_PREFIX ${ojt_4_DEVEL_PREFIX})
 else()
   set(ojt_4_SOURCE_PREFIX "")
   set(ojt_4_DEVEL_PREFIX "")
-  set(ojt_4_INSTALL_PREFIX /home/chaeeun/test_ws/install)
+  set(ojt_4_INSTALL_PREFIX /home/chaeeun/OJT/install)
   set(ojt_4_PREFIX ${ojt_4_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/chaeeun/test_ws/install/lib;/home/chaeeun/test_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/chaeeun/OJT/install/lib;/home/chaeeun/OJT/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
