@@ -20,7 +20,7 @@ void TFSensor::scanCallback(const sensor_msgs::LaserScan::ConstPtr& msg){
 
     transformStamped = tfBuffer.lookupTransform("base_link", "front_laser", ros::Time(0));
 
-    // 극좌표계 -> 데카르트 좌표계
+//    극좌표계 -> 데카르트 좌표계
     for(int i = 0 ; i < msg->ranges.size() ; i++){
         angle = msg->angle_min + (msg->angle_increment * i);
         distance = msg->ranges[i];
@@ -48,7 +48,7 @@ void TFSensor::scanCallback(const sensor_msgs::LaserScan::ConstPtr& msg){
         point.z = transformed_point.point.z;
     }
 
-    // PCL 포인트 클라우드 데이터를 sensor_msgs::PointCloud2 형식으로 변환
+   // PCL 포인트 클라우드 데이터를 sensor_msgs::PointCloud2 형식으로 변환
     pcl::toROSMsg(cloud, lidar_pointcloud);
 
     lidar_pointcloud.header.stamp = ros::Time::now();
