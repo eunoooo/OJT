@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/chaeeun/OJT/devel/lib/beginner_tutorials/add_two_ints_client"
-  "/home/chaeeun/OJT/devel/lib/beginner_tutorials/add_two_ints_client.pdb"
+  "/home/chaeeun/OJT_ORG/devel/lib/beginner_tutorials/add_two_ints_client"
+  "/home/chaeeun/OJT_ORG/devel/lib/beginner_tutorials/add_two_ints_client.pdb"
   "CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o"
 )
 

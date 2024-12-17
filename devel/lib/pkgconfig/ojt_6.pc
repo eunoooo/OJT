@@ -1,8 +1,8 @@
-prefix=/home/chaeeun/OJT/devel
+prefix=/home/chaeeun/OJT_ORG/devel
 
 Name: ojt_6
 Description: Description of ojt_6
 Version: 0.0.0
 Cflags: 
 Libs: -L${prefix}/lib 
-Requires: roscpp sensor_msgs tf2 tf2_ros tf2_geometry_msgs geometry_msgs pcl_ros pcl_conversions
+Requires: roscpp sensor_msgs tf tf2_ros geometry_msgs

@@ -1,4 +1,4 @@
-prefix=/home/chaeeun/OJT/install
+prefix=/home/chaeeun/OJT_ORG/install
 
 Name: ojt_4
 Description: Description of ojt_4

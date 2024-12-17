@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11 -O3
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"ls01b_v2\"
 
-CXX_INCLUDES = -I/home/chaeeun/OJT/src/ls01b_v2/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/chaeeun/OJT_ORG/src/ls01b_v2/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

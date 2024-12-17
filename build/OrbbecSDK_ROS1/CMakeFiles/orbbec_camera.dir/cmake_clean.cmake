@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/chaeeun/OJT/devel/lib/liborbbec_camera.pdb"
-  "/home/chaeeun/OJT/devel/lib/liborbbec_camera.so"
+  "/home/chaeeun/OJT_ORG/devel/lib/liborbbec_camera.pdb"
+  "/home/chaeeun/OJT_ORG/devel/lib/liborbbec_camera.so"
   "CMakeFiles/orbbec_camera.dir/src/d2c_viewer.cpp.o"
   "CMakeFiles/orbbec_camera.dir/src/jpeg_decoder.cpp.o"
   "CMakeFiles/orbbec_camera.dir/src/ob_camera_node.cpp.o"

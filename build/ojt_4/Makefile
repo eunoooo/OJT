@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chaeeun/OJT/src
+CMAKE_SOURCE_DIR = /home/chaeeun/OJT_ORG/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chaeeun/OJT/build
+CMAKE_BINARY_DIR = /home/chaeeun/OJT_ORG/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chaeeun/OJT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chaeeun/OJT/build/CMakeFiles /home/chaeeun/OJT/build/ojt_4/CMakeFiles/progress.marks
-	cd /home/chaeeun/OJT/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_4/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaeeun/OJT/build/CMakeFiles 0
+	cd /home/chaeeun/OJT_ORG/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chaeeun/OJT_ORG/build/CMakeFiles /home/chaeeun/OJT_ORG/build/ojt_4/CMakeFiles/progress.marks
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_4/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaeeun/OJT_ORG/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_4/clean
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_4/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chaeeun/OJT/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_4/preinstall
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_4/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_4/preinstall
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_4/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chaeeun/OJT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chaeeun/OJT_ORG/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ojt_4/CMakeFiles/drive_main.dir/rule:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_4/CMakeFiles/drive_main.dir/rule
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_4/CMakeFiles/drive_main.dir/rule
 .PHONY : ojt_4/CMakeFiles/drive_main.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ drive_main: ojt_4/CMakeFiles/drive_main.dir/rule
 
 # fast build rule for target.
 drive_main/fast:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/build
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/build
 .PHONY : drive_main/fast
 
 src/drive_main.o: src/drive_main.cpp.o
@@ -188,7 +188,7 @@ src/drive_main.o: src/drive_main.cpp.o
 
 # target to build an object file
 src/drive_main.cpp.o:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/src/drive_main.cpp.o
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/src/drive_main.cpp.o
 .PHONY : src/drive_main.cpp.o
 
 src/drive_main.i: src/drive_main.cpp.i
@@ -197,7 +197,7 @@ src/drive_main.i: src/drive_main.cpp.i
 
 # target to preprocess a source file
 src/drive_main.cpp.i:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/src/drive_main.cpp.i
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/src/drive_main.cpp.i
 .PHONY : src/drive_main.cpp.i
 
 src/drive_main.s: src/drive_main.cpp.s
@@ -206,7 +206,7 @@ src/drive_main.s: src/drive_main.cpp.s
 
 # target to generate assembly for a file
 src/drive_main.cpp.s:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/src/drive_main.cpp.s
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/src/drive_main.cpp.s
 .PHONY : src/drive_main.cpp.s
 
 src/turtlesim_drive.o: src/turtlesim_drive.cpp.o
@@ -215,7 +215,7 @@ src/turtlesim_drive.o: src/turtlesim_drive.cpp.o
 
 # target to build an object file
 src/turtlesim_drive.cpp.o:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/src/turtlesim_drive.cpp.o
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/src/turtlesim_drive.cpp.o
 .PHONY : src/turtlesim_drive.cpp.o
 
 src/turtlesim_drive.i: src/turtlesim_drive.cpp.i
@@ -224,7 +224,7 @@ src/turtlesim_drive.i: src/turtlesim_drive.cpp.i
 
 # target to preprocess a source file
 src/turtlesim_drive.cpp.i:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/src/turtlesim_drive.cpp.i
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/src/turtlesim_drive.cpp.i
 .PHONY : src/turtlesim_drive.cpp.i
 
 src/turtlesim_drive.s: src/turtlesim_drive.cpp.s
@@ -233,7 +233,7 @@ src/turtlesim_drive.s: src/turtlesim_drive.cpp.s
 
 # target to generate assembly for a file
 src/turtlesim_drive.cpp.s:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/src/turtlesim_drive.cpp.s
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f ojt_4/CMakeFiles/drive_main.dir/build.make ojt_4/CMakeFiles/drive_main.dir/src/turtlesim_drive.cpp.s
 .PHONY : src/turtlesim_drive.cpp.s
 
 # Help Target
@@ -267,6 +267,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chaeeun/OJT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chaeeun/OJT_ORG/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

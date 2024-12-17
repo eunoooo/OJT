@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chaeeun/OJT/src
+CMAKE_SOURCE_DIR = /home/chaeeun/OJT_ORG/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chaeeun/OJT/build
+CMAKE_BINARY_DIR = /home/chaeeun/OJT_ORG/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chaeeun/OJT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chaeeun/OJT/build/CMakeFiles /home/chaeeun/OJT/build/ojt_5/CMakeFiles/progress.marks
-	cd /home/chaeeun/OJT/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_5/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaeeun/OJT/build/CMakeFiles 0
+	cd /home/chaeeun/OJT_ORG/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chaeeun/OJT_ORG/build/CMakeFiles /home/chaeeun/OJT_ORG/build/ojt_5/CMakeFiles/progress.marks
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_5/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaeeun/OJT_ORG/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_5/clean
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_5/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chaeeun/OJT/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_5/preinstall
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_5/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_5/preinstall
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_5/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chaeeun/OJT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chaeeun/OJT_ORG/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ojt_5/CMakeFiles/comp_pub_node.dir/rule:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_5/CMakeFiles/comp_pub_node.dir/rule
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_5/CMakeFiles/comp_pub_node.dir/rule
 .PHONY : ojt_5/CMakeFiles/comp_pub_node.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ comp_pub_node: ojt_5/CMakeFiles/comp_pub_node.dir/rule
 
 # fast build rule for target.
 comp_pub_node/fast:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f ojt_5/CMakeFiles/comp_pub_node.dir/build.make ojt_5/CMakeFiles/comp_pub_node.dir/build
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f ojt_5/CMakeFiles/comp_pub_node.dir/build.make ojt_5/CMakeFiles/comp_pub_node.dir/build
 .PHONY : comp_pub_node/fast
 
 # Convenience name for target.
 ojt_5/CMakeFiles/comp_sub_node.dir/rule:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_5/CMakeFiles/comp_sub_node.dir/rule
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_5/CMakeFiles/comp_sub_node.dir/rule
 .PHONY : ojt_5/CMakeFiles/comp_sub_node.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ comp_sub_node: ojt_5/CMakeFiles/comp_sub_node.dir/rule
 
 # fast build rule for target.
 comp_sub_node/fast:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f ojt_5/CMakeFiles/comp_sub_node.dir/build.make ojt_5/CMakeFiles/comp_sub_node.dir/build
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f ojt_5/CMakeFiles/comp_sub_node.dir/build.make ojt_5/CMakeFiles/comp_sub_node.dir/build
 .PHONY : comp_sub_node/fast
 
 # Convenience name for target.
 ojt_5/CMakeFiles/image_sub_node.dir/rule:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_5/CMakeFiles/image_sub_node.dir/rule
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f CMakeFiles/Makefile2 ojt_5/CMakeFiles/image_sub_node.dir/rule
 .PHONY : ojt_5/CMakeFiles/image_sub_node.dir/rule
 
 # Convenience name for target.
@@ -209,7 +209,7 @@ image_sub_node: ojt_5/CMakeFiles/image_sub_node.dir/rule
 
 # fast build rule for target.
 image_sub_node/fast:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f ojt_5/CMakeFiles/image_sub_node.dir/build.make ojt_5/CMakeFiles/image_sub_node.dir/build
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f ojt_5/CMakeFiles/image_sub_node.dir/build.make ojt_5/CMakeFiles/image_sub_node.dir/build
 .PHONY : image_sub_node/fast
 
 src/comp_pub_node.o: src/comp_pub_node.cpp.o
@@ -218,7 +218,7 @@ src/comp_pub_node.o: src/comp_pub_node.cpp.o
 
 # target to build an object file
 src/comp_pub_node.cpp.o:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f ojt_5/CMakeFiles/comp_pub_node.dir/build.make ojt_5/CMakeFiles/comp_pub_node.dir/src/comp_pub_node.cpp.o
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f ojt_5/CMakeFiles/comp_pub_node.dir/build.make ojt_5/CMakeFiles/comp_pub_node.dir/src/comp_pub_node.cpp.o
 .PHONY : src/comp_pub_node.cpp.o
 
 src/comp_pub_node.i: src/comp_pub_node.cpp.i
@@ -227,7 +227,7 @@ src/comp_pub_node.i: src/comp_pub_node.cpp.i
 
 # target to preprocess a source file
 src/comp_pub_node.cpp.i:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f ojt_5/CMakeFiles/comp_pub_node.dir/build.make ojt_5/CMakeFiles/comp_pub_node.dir/src/comp_pub_node.cpp.i
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f ojt_5/CMakeFiles/comp_pub_node.dir/build.make ojt_5/CMakeFiles/comp_pub_node.dir/src/comp_pub_node.cpp.i
 .PHONY : src/comp_pub_node.cpp.i
 
 src/comp_pub_node.s: src/comp_pub_node.cpp.s
@@ -236,7 +236,7 @@ src/comp_pub_node.s: src/comp_pub_node.cpp.s
 
 # target to generate assembly for a file
 src/comp_pub_node.cpp.s:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f ojt_5/CMakeFiles/comp_pub_node.dir/build.make ojt_5/CMakeFiles/comp_pub_node.dir/src/comp_pub_node.cpp.s
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f ojt_5/CMakeFiles/comp_pub_node.dir/build.make ojt_5/CMakeFiles/comp_pub_node.dir/src/comp_pub_node.cpp.s
 .PHONY : src/comp_pub_node.cpp.s
 
 src/comp_sub_node.o: src/comp_sub_node.cpp.o
@@ -245,7 +245,7 @@ src/comp_sub_node.o: src/comp_sub_node.cpp.o
 
 # target to build an object file
 src/comp_sub_node.cpp.o:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f ojt_5/CMakeFiles/comp_sub_node.dir/build.make ojt_5/CMakeFiles/comp_sub_node.dir/src/comp_sub_node.cpp.o
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f ojt_5/CMakeFiles/comp_sub_node.dir/build.make ojt_5/CMakeFiles/comp_sub_node.dir/src/comp_sub_node.cpp.o
 .PHONY : src/comp_sub_node.cpp.o
 
 src/comp_sub_node.i: src/comp_sub_node.cpp.i
@@ -254,7 +254,7 @@ src/comp_sub_node.i: src/comp_sub_node.cpp.i
 
 # target to preprocess a source file
 src/comp_sub_node.cpp.i:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f ojt_5/CMakeFiles/comp_sub_node.dir/build.make ojt_5/CMakeFiles/comp_sub_node.dir/src/comp_sub_node.cpp.i
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f ojt_5/CMakeFiles/comp_sub_node.dir/build.make ojt_5/CMakeFiles/comp_sub_node.dir/src/comp_sub_node.cpp.i
 .PHONY : src/comp_sub_node.cpp.i
 
 src/comp_sub_node.s: src/comp_sub_node.cpp.s
@@ -263,7 +263,7 @@ src/comp_sub_node.s: src/comp_sub_node.cpp.s
 
 # target to generate assembly for a file
 src/comp_sub_node.cpp.s:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f ojt_5/CMakeFiles/comp_sub_node.dir/build.make ojt_5/CMakeFiles/comp_sub_node.dir/src/comp_sub_node.cpp.s
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f ojt_5/CMakeFiles/comp_sub_node.dir/build.make ojt_5/CMakeFiles/comp_sub_node.dir/src/comp_sub_node.cpp.s
 .PHONY : src/comp_sub_node.cpp.s
 
 src/image_sub_node.o: src/image_sub_node.cpp.o
@@ -272,7 +272,7 @@ src/image_sub_node.o: src/image_sub_node.cpp.o
 
 # target to build an object file
 src/image_sub_node.cpp.o:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f ojt_5/CMakeFiles/image_sub_node.dir/build.make ojt_5/CMakeFiles/image_sub_node.dir/src/image_sub_node.cpp.o
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f ojt_5/CMakeFiles/image_sub_node.dir/build.make ojt_5/CMakeFiles/image_sub_node.dir/src/image_sub_node.cpp.o
 .PHONY : src/image_sub_node.cpp.o
 
 src/image_sub_node.i: src/image_sub_node.cpp.i
@@ -281,7 +281,7 @@ src/image_sub_node.i: src/image_sub_node.cpp.i
 
 # target to preprocess a source file
 src/image_sub_node.cpp.i:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f ojt_5/CMakeFiles/image_sub_node.dir/build.make ojt_5/CMakeFiles/image_sub_node.dir/src/image_sub_node.cpp.i
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f ojt_5/CMakeFiles/image_sub_node.dir/build.make ojt_5/CMakeFiles/image_sub_node.dir/src/image_sub_node.cpp.i
 .PHONY : src/image_sub_node.cpp.i
 
 src/image_sub_node.s: src/image_sub_node.cpp.s
@@ -290,7 +290,7 @@ src/image_sub_node.s: src/image_sub_node.cpp.s
 
 # target to generate assembly for a file
 src/image_sub_node.cpp.s:
-	cd /home/chaeeun/OJT/build && $(MAKE) -f ojt_5/CMakeFiles/image_sub_node.dir/build.make ojt_5/CMakeFiles/image_sub_node.dir/src/image_sub_node.cpp.s
+	cd /home/chaeeun/OJT_ORG/build && $(MAKE) -f ojt_5/CMakeFiles/image_sub_node.dir/build.make ojt_5/CMakeFiles/image_sub_node.dir/src/image_sub_node.cpp.s
 .PHONY : src/image_sub_node.cpp.s
 
 # Help Target
@@ -329,6 +329,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chaeeun/OJT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chaeeun/OJT_ORG/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

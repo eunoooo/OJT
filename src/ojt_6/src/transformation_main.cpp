@@ -5,6 +5,7 @@ int main(int argc, char **argv){
    
     TFSensor tfsensor;
 
+     printf("1111\n");
     ros::spin();
 
     return 0;

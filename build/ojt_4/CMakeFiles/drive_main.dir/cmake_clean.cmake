@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/chaeeun/OJT/devel/lib/ojt_4/drive_main"
-  "/home/chaeeun/OJT/devel/lib/ojt_4/drive_main.pdb"
+  "/home/chaeeun/OJT_ORG/devel/lib/ojt_4/drive_main"
+  "/home/chaeeun/OJT_ORG/devel/lib/ojt_4/drive_main.pdb"
   "CMakeFiles/drive_main.dir/src/drive_main.cpp.o"
   "CMakeFiles/drive_main.dir/src/turtlesim_drive.cpp.o"
 )

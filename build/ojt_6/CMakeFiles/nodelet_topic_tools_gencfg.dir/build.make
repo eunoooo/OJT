@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chaeeun/OJT/src
+CMAKE_SOURCE_DIR = /home/chaeeun/OJT_ORG/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chaeeun/OJT/build
+CMAKE_BINARY_DIR = /home/chaeeun/OJT_ORG/build
 
 # Utility rule file for nodelet_topic_tools_gencfg.
 
@@ -63,10 +63,10 @@ ojt_6/CMakeFiles/nodelet_topic_tools_gencfg.dir/build: nodelet_topic_tools_gencf
 .PHONY : ojt_6/CMakeFiles/nodelet_topic_tools_gencfg.dir/build
 
 ojt_6/CMakeFiles/nodelet_topic_tools_gencfg.dir/clean:
-	cd /home/chaeeun/OJT/build/ojt_6 && $(CMAKE_COMMAND) -P CMakeFiles/nodelet_topic_tools_gencfg.dir/cmake_clean.cmake
+	cd /home/chaeeun/OJT_ORG/build/ojt_6 && $(CMAKE_COMMAND) -P CMakeFiles/nodelet_topic_tools_gencfg.dir/cmake_clean.cmake
 .PHONY : ojt_6/CMakeFiles/nodelet_topic_tools_gencfg.dir/clean
 
 ojt_6/CMakeFiles/nodelet_topic_tools_gencfg.dir/depend:
-	cd /home/chaeeun/OJT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chaeeun/OJT/src /home/chaeeun/OJT/src/ojt_6 /home/chaeeun/OJT/build /home/chaeeun/OJT/build/ojt_6 /home/chaeeun/OJT/build/ojt_6/CMakeFiles/nodelet_topic_tools_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chaeeun/OJT_ORG/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chaeeun/OJT_ORG/src /home/chaeeun/OJT_ORG/src/ojt_6 /home/chaeeun/OJT_ORG/build /home/chaeeun/OJT_ORG/build/ojt_6 /home/chaeeun/OJT_ORG/build/ojt_6/CMakeFiles/nodelet_topic_tools_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ojt_6/CMakeFiles/nodelet_topic_tools_gencfg.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chaeeun/OJT/src
+CMAKE_SOURCE_DIR = /home/chaeeun/OJT_ORG/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chaeeun/OJT/build
+CMAKE_BINARY_DIR = /home/chaeeun/OJT_ORG/build
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/chaeeun/OJT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chaeeun/OJT/src /home/chaeeun/OJT/src /home/chaeeun/OJT/build /home/chaeeun/OJT/build /home/chaeeun/OJT/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chaeeun/OJT_ORG/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chaeeun/OJT_ORG/src /home/chaeeun/OJT_ORG/src /home/chaeeun/OJT_ORG/build /home/chaeeun/OJT_ORG/build /home/chaeeun/OJT_ORG/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

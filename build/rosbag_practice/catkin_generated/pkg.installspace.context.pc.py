@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "roscpp;std_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "rosbag_practice"
-PROJECT_SPACE_DIR = "/home/chaeeun/OJT/install"
+PROJECT_SPACE_DIR = "/home/chaeeun/OJT_ORG/install"
 PROJECT_VERSION = "0.0.0"

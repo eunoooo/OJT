@@ -4,13 +4,13 @@
     <link name="base_link"/>
     
 
-    <joint name="front_laser_joint" type="fixed"> 
+    <joint name="laser_joint" type="fixed"> 
         <parent link="base_link"/>
-        <child link="front_laser"/>
+        <child link="laser"/>
         <origin rpy="0 0 0.7854" xyz="0.1455 0.067 0.03"/>
     </joint>
 
-    <link name="front_laser"/> 
+    <link name="laser"/> 
 
     <!--
      <joint name="rear_laser_joint" type="fixed"> 

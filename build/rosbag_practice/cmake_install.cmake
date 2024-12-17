@@ -1,8 +1,8 @@
-# Install script for directory: /home/chaeeun/OJT/src/rosbag_practice
+# Install script for directory: /home/chaeeun/OJT_ORG/src/rosbag_practice
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chaeeun/OJT/install")
+  set(CMAKE_INSTALL_PREFIX "/home/chaeeun/OJT_ORG/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chaeeun/OJT/build/rosbag_practice/catkin_generated/installspace/rosbag_practice.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chaeeun/OJT_ORG/build/rosbag_practice/catkin_generated/installspace/rosbag_practice.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbag_practice/cmake" TYPE FILE FILES
-    "/home/chaeeun/OJT/build/rosbag_practice/catkin_generated/installspace/rosbag_practiceConfig.cmake"
-    "/home/chaeeun/OJT/build/rosbag_practice/catkin_generated/installspace/rosbag_practiceConfig-version.cmake"
+    "/home/chaeeun/OJT_ORG/build/rosbag_practice/catkin_generated/installspace/rosbag_practiceConfig.cmake"
+    "/home/chaeeun/OJT_ORG/build/rosbag_practice/catkin_generated/installspace/rosbag_practiceConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbag_practice" TYPE FILE FILES "/home/chaeeun/OJT/src/rosbag_practice/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbag_practice" TYPE FILE FILES "/home/chaeeun/OJT_ORG/src/rosbag_practice/package.xml")
 endif()
 

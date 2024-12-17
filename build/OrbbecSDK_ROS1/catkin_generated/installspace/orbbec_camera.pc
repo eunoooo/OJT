@@ -1,4 +1,4 @@
-prefix=/home/chaeeun/OJT/install
+prefix=/home/chaeeun/OJT_ORG/install
 
 Name: orbbec_camera
 Description: Description of orbbec_camera

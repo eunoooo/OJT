@@ -1,4 +1,4 @@
-prefix=/home/chaeeun/OJT/devel
+prefix=/home/chaeeun/OJT_ORG/devel
 
 Name: ojt_5
 Description: Description of ojt_5

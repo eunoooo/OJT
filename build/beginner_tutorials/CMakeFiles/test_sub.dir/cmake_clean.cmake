@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/chaeeun/OJT/devel/lib/beginner_tutorials/test_sub"
-  "/home/chaeeun/OJT/devel/lib/beginner_tutorials/test_sub.pdb"
+  "/home/chaeeun/OJT_ORG/devel/lib/beginner_tutorials/test_sub"
+  "/home/chaeeun/OJT_ORG/devel/lib/beginner_tutorials/test_sub.pdb"
   "CMakeFiles/test_sub.dir/src/test_sub.cpp.o"
 )
 

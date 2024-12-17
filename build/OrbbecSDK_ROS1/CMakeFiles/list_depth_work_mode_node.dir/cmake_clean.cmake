@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/chaeeun/OJT/devel/lib/orbbec_camera/list_depth_work_mode_node"
-  "/home/chaeeun/OJT/devel/lib/orbbec_camera/list_depth_work_mode_node.pdb"
+  "/home/chaeeun/OJT_ORG/devel/lib/orbbec_camera/list_depth_work_mode_node"
+  "/home/chaeeun/OJT_ORG/devel/lib/orbbec_camera/list_depth_work_mode_node.pdb"
   "CMakeFiles/list_depth_work_mode_node.dir/src/list_depth_work_mode.cpp.o"
 )
 

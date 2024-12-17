@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chaeeun/OJT/src
+CMAKE_SOURCE_DIR = /home/chaeeun/OJT_ORG/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chaeeun/OJT/build
+CMAKE_BINARY_DIR = /home/chaeeun/OJT_ORG/build
 
 # Utility rule file for _orbbec_camera_generate_messages_check_deps_SetString.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/chaeeun/OJT/build
 include OrbbecSDK_ROS1/CMakeFiles/_orbbec_camera_generate_messages_check_deps_SetString.dir/progress.make
 
 OrbbecSDK_ROS1/CMakeFiles/_orbbec_camera_generate_messages_check_deps_SetString:
-	cd /home/chaeeun/OJT/build/OrbbecSDK_ROS1 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py orbbec_camera /home/chaeeun/OJT/src/OrbbecSDK_ROS1/srv/SetString.srv 
+	cd /home/chaeeun/OJT_ORG/build/OrbbecSDK_ROS1 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py orbbec_camera /home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/srv/SetString.srv 
 
 _orbbec_camera_generate_messages_check_deps_SetString: OrbbecSDK_ROS1/CMakeFiles/_orbbec_camera_generate_messages_check_deps_SetString
 _orbbec_camera_generate_messages_check_deps_SetString: OrbbecSDK_ROS1/CMakeFiles/_orbbec_camera_generate_messages_check_deps_SetString.dir/build.make
@@ -67,10 +67,10 @@ OrbbecSDK_ROS1/CMakeFiles/_orbbec_camera_generate_messages_check_deps_SetString.
 .PHONY : OrbbecSDK_ROS1/CMakeFiles/_orbbec_camera_generate_messages_check_deps_SetString.dir/build
 
 OrbbecSDK_ROS1/CMakeFiles/_orbbec_camera_generate_messages_check_deps_SetString.dir/clean:
-	cd /home/chaeeun/OJT/build/OrbbecSDK_ROS1 && $(CMAKE_COMMAND) -P CMakeFiles/_orbbec_camera_generate_messages_check_deps_SetString.dir/cmake_clean.cmake
+	cd /home/chaeeun/OJT_ORG/build/OrbbecSDK_ROS1 && $(CMAKE_COMMAND) -P CMakeFiles/_orbbec_camera_generate_messages_check_deps_SetString.dir/cmake_clean.cmake
 .PHONY : OrbbecSDK_ROS1/CMakeFiles/_orbbec_camera_generate_messages_check_deps_SetString.dir/clean
 
 OrbbecSDK_ROS1/CMakeFiles/_orbbec_camera_generate_messages_check_deps_SetString.dir/depend:
-	cd /home/chaeeun/OJT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chaeeun/OJT/src /home/chaeeun/OJT/src/OrbbecSDK_ROS1 /home/chaeeun/OJT/build /home/chaeeun/OJT/build/OrbbecSDK_ROS1 /home/chaeeun/OJT/build/OrbbecSDK_ROS1/CMakeFiles/_orbbec_camera_generate_messages_check_deps_SetString.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chaeeun/OJT_ORG/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chaeeun/OJT_ORG/src /home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1 /home/chaeeun/OJT_ORG/build /home/chaeeun/OJT_ORG/build/OrbbecSDK_ROS1 /home/chaeeun/OJT_ORG/build/OrbbecSDK_ROS1/CMakeFiles/_orbbec_camera_generate_messages_check_deps_SetString.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : OrbbecSDK_ROS1/CMakeFiles/_orbbec_camera_generate_messages_check_deps_SetString.dir/depend
 

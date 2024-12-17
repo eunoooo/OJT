@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/chaeeun/OJT/devel/lib/ojt_6/transformation_main"
-  "/home/chaeeun/OJT/devel/lib/ojt_6/transformation_main.pdb"
+  "/home/chaeeun/OJT_ORG/devel/lib/ojt_6/transformation_main"
+  "/home/chaeeun/OJT_ORG/devel/lib/ojt_6/transformation_main.pdb"
   "CMakeFiles/transformation_main.dir/src/transformation_main.cpp.o"
   "CMakeFiles/transformation_main.dir/src/transformation_sensor.cpp.o"
 )

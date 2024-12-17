@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/chaeeun/OJT/devel/lib/ojt_5/image_sub_node"
-  "/home/chaeeun/OJT/devel/lib/ojt_5/image_sub_node.pdb"
+  "/home/chaeeun/OJT_ORG/devel/lib/ojt_5/image_sub_node"
+  "/home/chaeeun/OJT_ORG/devel/lib/ojt_5/image_sub_node.pdb"
   "CMakeFiles/image_sub_node.dir/src/image_sub_node.cpp.o"
 )
 

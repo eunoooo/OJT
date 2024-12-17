@@ -10,12 +10,9 @@ project(ojt_6)
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   sensor_msgs
-  tf2
+  tf
   tf2_ros
-  tf2_geometry_msgs
   geometry_msgs
-  pcl_ros
-  pcl_conversions
 )
 
 ## System dependencies are found with CMake's conventions
@@ -110,7 +107,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES ojt_6
-  CATKIN_DEPENDS roscpp sensor_msgs tf2 tf2_ros tf2_geometry_msgs geometry_msgs pcl_ros pcl_conversions
+  CATKIN_DEPENDS roscpp sensor_msgs tf tf2_ros geometry_msgs
 #  DEPENDS system_lib
 )
 
