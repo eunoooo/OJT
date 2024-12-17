@@ -12,7 +12,10 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   tf2
   tf2_ros
+  tf2_geometry_msgs
   geometry_msgs
+  pcl_ros
+  pcl_conversions
 )
 
 ## System dependencies are found with CMake's conventions
@@ -107,7 +110,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES ojt_6
-  CATKIN_DEPENDS roscpp sensor_msgs tf2 tf2_ros geometry_msgs 
+  CATKIN_DEPENDS roscpp sensor_msgs tf2 tf2_ros tf2_geometry_msgs geometry_msgs pcl_ros pcl_conversions
 #  DEPENDS system_lib
 )
 
@@ -209,4 +212,4 @@ include_directories(
 
 add_executable(transformation_main src/transformation_main.cpp src/transformation_sensor.cpp)
 
-target_link_libraries(transformation_main ${catkin_LIBRARIES} tf2 tf2_ros)
+target_link_libraries(transformation_main ${catkin_LIBRARIES})

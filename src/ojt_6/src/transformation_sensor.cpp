@@ -5,7 +5,7 @@ TFSensor::TFSensor() : tfListener(tfBuffer) {
     sub_scan = n.subscribe("/scan", 10, &TFSensor::scanCallback, this);
    // sub_points = n.subscribe("/camera/depth/points", 10, pointsCallback);
 
-    pub_transform_scan1 = n.advertise<sensor_msgs::PointCloud2>("/ojt/transform/scan", 10);
+    pub_transform_scan = n.advertise<sensor_msgs::PointCloud2>("/ojt/transform/scan", 10);
     //pub_transform_scan = n.advertise<geometry_msgs::PointStamped>("/ojt/transform/scan", 10);
 }
 
@@ -37,10 +37,10 @@ void TFSensor::scanCallback(const sensor_msgs::LaserScan::ConstPtr& msg){
         lidar_point.point.x = point.x;
         lidar_point.point.y = point.y;
         lidar_point.point.z = point.z;
-        lidar_point.header.frame_id = scan->header.frame_id;
+        lidar_point.header.frame_id = msg->header.frame_id;
         lidar_point.header.stamp = ros::Time(0);
 
-        tf2_ros::doTransform(lidar_point, transformed_point, transform);
+        tf2::doTransform(lidar_point, transformed_point, transformStamped);
 
         // 변환된 좌표를 다시 포인트 클라우드에 저장
         point.x = transformed_point.point.x;
@@ -53,7 +53,6 @@ void TFSensor::scanCallback(const sensor_msgs::LaserScan::ConstPtr& msg){
 
     lidar_pointcloud.header.stamp = ros::Time::now();
     lidar_pointcloud.header.frame_id = "base_link"; 
-
 
     // doTransform이 변환행렬을 사용하여 좌표 변환을 수행하는 부분인듯? -> 찾아보기
     // todo 변환행렬 공부

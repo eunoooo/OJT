@@ -137,8 +137,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/chaeeun/OJT/build/ojt_4/cmake_install.cmake")
   include("/home/chaeeun/OJT/build/ojt_5/cmake_install.cmake")
   include("/home/chaeeun/OJT/build/rosbag_practice/cmake_install.cmake")
-  include("/home/chaeeun/OJT/build/ojt_6/cmake_install.cmake")
   include("/home/chaeeun/OJT/build/OrbbecSDK_ROS1/cmake_install.cmake")
+  include("/home/chaeeun/OJT/build/ojt_6/cmake_install.cmake")
 
 endif()
 

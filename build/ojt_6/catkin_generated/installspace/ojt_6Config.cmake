@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/chaeeun/OJT/install/lib;/home/chaeeun/OJT/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/chaeeun/OJT/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -185,7 +185,7 @@ foreach(t ${ojt_6_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "roscpp;sensor_msgs;tf2;tf2_ros;geometry_msgs")
+set(depends "roscpp;sensor_msgs;tf2;tf2_ros;tf2_geometry_msgs;geometry_msgs;pcl_ros;pcl_conversions")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls
