@@ -5,7 +5,7 @@ TFSensor::TFSensor() : tfListener(tfBuffer){
     sub_scan = n.subscribe("/scan", 10, &TFSensor::scanCallback, this);
    // sub_points = n.subscribe("/camera/depth/points", 10, pointsCallback);
 
-    pub_transform_scan = n.advertise<sensor_msgs::PointCloud>("/ojt/transform/scan", 10);
+    pub_transform_scan = n.advertise<sensor_msgs::PointCloud>("/ojt/transform/scan2", 10);
     //pub_transform_scan = n.advertise<geometry_msgs::PointStamped>("/ojt/transform/scan", 10);
      printf("hi~2222/n");
 }
@@ -62,23 +62,19 @@ std::vector<tf::Vector3> TFSensor::convertCoordinate(const sensor_msgs::LaserSca
 }
 
 tf::Vector3 TFSensor::TF(const geometry_msgs::TransformStamped& transform_stamped, tf::Vector3 original_v){
-    // 1. TransformStamped에서 쿼터니언 가져오기
+    // TransformStamped에서 쿼터니언 가져오기
     geometry_msgs::Quaternion geo_quat = transform_stamped.transform.rotation;
 
-    // 2. 쿼터니언을 tf::Quaternion으로 변환
+    // 쿼터니언을 tf::Quaternion으로 변환
     tf::Quaternion tf_quat(geo_quat.x, geo_quat.y, geo_quat.z, geo_quat.w);
 
-    // 3. 회전 행렬 (tf::Matrix3x3) 생성
+    // 회전 행렬 (tf::Matrix3x3) 생성
     tf::Matrix3x3 rotation_matrix(tf_quat);
 
-    // 4. 회전 축과 회전 각도 가져오기
-    double roll, pitch, yaw;
-    rotation_matrix.getRPY(roll, pitch, yaw); // RPY (Roll, Pitch, Yaw) 값을 가져옴
-
-    // 5. 벡터 회전 변환
+    // 벡터 회전 변환
     tf::Vector3 rotated_v = rotation_matrix * original_v;
 
-    // 6. 병진 변환(좌표계나 점을 특정 방향으로 일정한 거리만큼 평행 이동.) 적용
+    // 병진 변환(좌표계나 점을 특정 방향으로 일정한 거리만큼 평행 이동.) 적용
     geometry_msgs::Vector3 translation = transform_stamped.transform.translation;
     tf::Vector3 translated_v = rotated_v + tf::Vector3(translation.x, translation.y, translation.z);
 
