@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chaeeun/OJT_ORG/src
+CMAKE_SOURCE_DIR = /home/chaeeun/OJT/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chaeeun/OJT_ORG/build
+CMAKE_BINARY_DIR = /home/chaeeun/OJT/build
 
 # Utility rule file for diagnostic_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ OrbbecSDK_ROS1/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build: diagn
 .PHONY : OrbbecSDK_ROS1/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build
 
 OrbbecSDK_ROS1/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean:
-	cd /home/chaeeun/OJT_ORG/build/OrbbecSDK_ROS1 && $(CMAKE_COMMAND) -P CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/chaeeun/OJT/build/OrbbecSDK_ROS1 && $(CMAKE_COMMAND) -P CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : OrbbecSDK_ROS1/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
 
 OrbbecSDK_ROS1/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/depend:
-	cd /home/chaeeun/OJT_ORG/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chaeeun/OJT_ORG/src /home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1 /home/chaeeun/OJT_ORG/build /home/chaeeun/OJT_ORG/build/OrbbecSDK_ROS1 /home/chaeeun/OJT_ORG/build/OrbbecSDK_ROS1/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chaeeun/OJT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chaeeun/OJT/src /home/chaeeun/OJT/src/OrbbecSDK_ROS1 /home/chaeeun/OJT/build /home/chaeeun/OJT/build/OrbbecSDK_ROS1 /home/chaeeun/OJT/build/OrbbecSDK_ROS1/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : OrbbecSDK_ROS1/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/depend
 

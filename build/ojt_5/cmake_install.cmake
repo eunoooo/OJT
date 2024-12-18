@@ -1,8 +1,8 @@
-# Install script for directory: /home/chaeeun/OJT_ORG/src/ojt_5
+# Install script for directory: /home/chaeeun/OJT/src/ojt_5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chaeeun/OJT_ORG/install")
+  set(CMAKE_INSTALL_PREFIX "/home/chaeeun/OJT/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chaeeun/OJT_ORG/build/ojt_5/catkin_generated/installspace/ojt_5.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chaeeun/OJT/build/ojt_5/catkin_generated/installspace/ojt_5.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ojt_5/cmake" TYPE FILE FILES
-    "/home/chaeeun/OJT_ORG/build/ojt_5/catkin_generated/installspace/ojt_5Config.cmake"
-    "/home/chaeeun/OJT_ORG/build/ojt_5/catkin_generated/installspace/ojt_5Config-version.cmake"
+    "/home/chaeeun/OJT/build/ojt_5/catkin_generated/installspace/ojt_5Config.cmake"
+    "/home/chaeeun/OJT/build/ojt_5/catkin_generated/installspace/ojt_5Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ojt_5" TYPE FILE FILES "/home/chaeeun/OJT_ORG/src/ojt_5/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ojt_5" TYPE FILE FILES "/home/chaeeun/OJT/src/ojt_5/package.xml")
 endif()
 

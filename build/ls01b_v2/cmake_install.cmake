@@ -1,8 +1,8 @@
-# Install script for directory: /home/chaeeun/OJT_ORG/src/ls01b_v2
+# Install script for directory: /home/chaeeun/OJT/src/ls01b_v2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chaeeun/OJT_ORG/install")
+  set(CMAKE_INSTALL_PREFIX "/home/chaeeun/OJT/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chaeeun/OJT_ORG/build/ls01b_v2/catkin_generated/installspace/ls01b_v2.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chaeeun/OJT/build/ls01b_v2/catkin_generated/installspace/ls01b_v2.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ls01b_v2/cmake" TYPE FILE FILES
-    "/home/chaeeun/OJT_ORG/build/ls01b_v2/catkin_generated/installspace/ls01b_v2Config.cmake"
-    "/home/chaeeun/OJT_ORG/build/ls01b_v2/catkin_generated/installspace/ls01b_v2Config-version.cmake"
+    "/home/chaeeun/OJT/build/ls01b_v2/catkin_generated/installspace/ls01b_v2Config.cmake"
+    "/home/chaeeun/OJT/build/ls01b_v2/catkin_generated/installspace/ls01b_v2Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ls01b_v2" TYPE FILE FILES "/home/chaeeun/OJT_ORG/src/ls01b_v2/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ls01b_v2" TYPE FILE FILES "/home/chaeeun/OJT/src/ls01b_v2/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,7 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ls01b_v2/ls01b_v2"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ls01b_v2" TYPE EXECUTABLE FILES "/home/chaeeun/OJT_ORG/devel/lib/ls01b_v2/ls01b_v2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ls01b_v2" TYPE EXECUTABLE FILES "/home/chaeeun/OJT/devel/lib/ls01b_v2/ls01b_v2")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ls01b_v2/ls01b_v2" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ls01b_v2/ls01b_v2")
     file(RPATH_CHANGE
@@ -73,6 +73,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ls01b_v2" TYPE DIRECTORY FILES "/home/chaeeun/OJT_ORG/src/ls01b_v2/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ls01b_v2" TYPE DIRECTORY FILES "/home/chaeeun/OJT/src/ls01b_v2/launch")
 endif()
 

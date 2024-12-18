@@ -1,8 +1,8 @@
-# Install script for directory: /home/chaeeun/OJT_ORG/src/basic_tutorial
+# Install script for directory: /home/chaeeun/OJT/src/basic_tutorial
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chaeeun/OJT_ORG/install")
+  set(CMAKE_INSTALL_PREFIX "/home/chaeeun/OJT/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chaeeun/OJT_ORG/build/basic_tutorial/catkin_generated/installspace/basic_tutorial.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chaeeun/OJT/build/basic_tutorial/catkin_generated/installspace/basic_tutorial.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basic_tutorial/cmake" TYPE FILE FILES
-    "/home/chaeeun/OJT_ORG/build/basic_tutorial/catkin_generated/installspace/basic_tutorialConfig.cmake"
-    "/home/chaeeun/OJT_ORG/build/basic_tutorial/catkin_generated/installspace/basic_tutorialConfig-version.cmake"
+    "/home/chaeeun/OJT/build/basic_tutorial/catkin_generated/installspace/basic_tutorialConfig.cmake"
+    "/home/chaeeun/OJT/build/basic_tutorial/catkin_generated/installspace/basic_tutorialConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basic_tutorial" TYPE FILE FILES "/home/chaeeun/OJT_ORG/src/basic_tutorial/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basic_tutorial" TYPE FILE FILES "/home/chaeeun/OJT/src/basic_tutorial/package.xml")
 endif()
 

@@ -1,4 +1,4 @@
-prefix=/home/chaeeun/OJT_ORG/install
+prefix=/home/chaeeun/OJT/install
 
 Name: basic_tutorial
 Description: Description of basic_tutorial

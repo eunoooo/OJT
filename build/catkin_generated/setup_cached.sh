@@ -7,10 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/chaeeun/OJT_ORG/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/chaeeun/OJT_ORG/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/chaeeun/OJT_ORG/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/chaeeun/OJT_ORG/build'
-export PYTHONPATH="/home/chaeeun/OJT_ORG/devel/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES='/home/chaeeun/OJT_ORG/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/chaeeun/OJT_ORG/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/chaeeun/OJT/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/chaeeun/OJT/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/chaeeun/OJT/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/chaeeun/OJT/build'
+export PYTHONPATH="/home/chaeeun/OJT/devel/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES='/home/chaeeun/OJT/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/chaeeun/OJT/src:$ROS_PACKAGE_PATH"

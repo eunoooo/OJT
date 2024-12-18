@@ -1,8 +1,8 @@
-prefix=/home/chaeeun/OJT_ORG/devel
+prefix=/home/chaeeun/OJT/devel
 
 Name: orbbec_camera
 Description: Description of orbbec_camera
 Version: 1.5.12
-Cflags: -I/home/chaeeun/OJT_ORG/devel/include -I/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/include
+Cflags: -I/home/chaeeun/OJT/devel/include -I/home/chaeeun/OJT/src/OrbbecSDK_ROS1/OrbbecSDK_ROS1/include
 Libs: -L${prefix}/lib -lorbbec_camera
 Requires: camera_info_manager cv_bridge dynamic_reconfigure image_geometry image_transport message_filters message_runtime roscpp sensor_msgs std_srvs tf2 tf2_ros

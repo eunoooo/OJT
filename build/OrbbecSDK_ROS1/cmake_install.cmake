@@ -1,8 +1,8 @@
-# Install script for directory: /home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1
+# Install script for directory: /home/chaeeun/OJT/src/OrbbecSDK_ROS1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chaeeun/OJT_ORG/install")
+  set(CMAKE_INSTALL_PREFIX "/home/chaeeun/OJT/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,72 +39,72 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbbec_camera/msg" TYPE FILE FILES
-    "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/msg/DeviceInfo.msg"
-    "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/msg/Extrinsics.msg"
-    "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/msg/Metadata.msg"
-    "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/msg/IMUInfo.msg"
+    "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/msg/DeviceInfo.msg"
+    "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/msg/Extrinsics.msg"
+    "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/msg/Metadata.msg"
+    "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/msg/IMUInfo.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbbec_camera/srv" TYPE FILE FILES
-    "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/srv/GetBool.srv"
-    "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/srv/SetBool.srv"
-    "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/srv/GetCameraInfo.srv"
-    "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/srv/GetCameraParams.srv"
-    "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/srv/GetDeviceInfo.srv"
-    "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/srv/GetInt32.srv"
-    "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/srv/GetString.srv"
-    "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/srv/SetInt32.srv"
-    "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/srv/SetString.srv"
+    "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/srv/GetBool.srv"
+    "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/srv/SetBool.srv"
+    "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/srv/GetCameraInfo.srv"
+    "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/srv/GetCameraParams.srv"
+    "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/srv/GetDeviceInfo.srv"
+    "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/srv/GetInt32.srv"
+    "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/srv/GetString.srv"
+    "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/srv/SetInt32.srv"
+    "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/srv/SetString.srv"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbbec_camera/cmake" TYPE FILE FILES "/home/chaeeun/OJT_ORG/build/OrbbecSDK_ROS1/catkin_generated/installspace/orbbec_camera-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbbec_camera/cmake" TYPE FILE FILES "/home/chaeeun/OJT/build/OrbbecSDK_ROS1/catkin_generated/installspace/orbbec_camera-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/chaeeun/OJT_ORG/devel/include/orbbec_camera")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/chaeeun/OJT/devel/include/orbbec_camera")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/chaeeun/OJT_ORG/devel/share/roseus/ros/orbbec_camera")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/chaeeun/OJT/devel/share/roseus/ros/orbbec_camera")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/chaeeun/OJT_ORG/devel/share/common-lisp/ros/orbbec_camera")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/chaeeun/OJT/devel/share/common-lisp/ros/orbbec_camera")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/chaeeun/OJT_ORG/devel/share/gennodejs/ros/orbbec_camera")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/chaeeun/OJT/devel/share/gennodejs/ros/orbbec_camera")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/chaeeun/OJT_ORG/devel/lib/python3/dist-packages/orbbec_camera")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/chaeeun/OJT/devel/lib/python3/dist-packages/orbbec_camera")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/chaeeun/OJT_ORG/devel/lib/python3/dist-packages/orbbec_camera")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/chaeeun/OJT/devel/lib/python3/dist-packages/orbbec_camera")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chaeeun/OJT_ORG/build/OrbbecSDK_ROS1/catkin_generated/installspace/orbbec_camera.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chaeeun/OJT/build/OrbbecSDK_ROS1/catkin_generated/installspace/orbbec_camera.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbbec_camera/cmake" TYPE FILE FILES "/home/chaeeun/OJT_ORG/build/OrbbecSDK_ROS1/catkin_generated/installspace/orbbec_camera-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbbec_camera/cmake" TYPE FILE FILES "/home/chaeeun/OJT/build/OrbbecSDK_ROS1/catkin_generated/installspace/orbbec_camera-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbbec_camera/cmake" TYPE FILE FILES
-    "/home/chaeeun/OJT_ORG/build/OrbbecSDK_ROS1/catkin_generated/installspace/orbbec_cameraConfig.cmake"
-    "/home/chaeeun/OJT_ORG/build/OrbbecSDK_ROS1/catkin_generated/installspace/orbbec_cameraConfig-version.cmake"
+    "/home/chaeeun/OJT/build/OrbbecSDK_ROS1/catkin_generated/installspace/orbbec_cameraConfig.cmake"
+    "/home/chaeeun/OJT/build/OrbbecSDK_ROS1/catkin_generated/installspace/orbbec_cameraConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbbec_camera" TYPE FILE FILES "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbbec_camera" TYPE FILE FILES "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -112,15 +112,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liborbbec_camera.so")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liborbbec_camera.so"
-         RPATH ":/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/lib/x64")
+         RPATH ":/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/lib/x64")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/chaeeun/OJT_ORG/devel/lib/liborbbec_camera.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/chaeeun/OJT/devel/lib/liborbbec_camera.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liborbbec_camera.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liborbbec_camera.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liborbbec_camera.so"
-         OLD_RPATH ":/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/lib/x64:/opt/ros/noetic/lib:"
-         NEW_RPATH ":/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/lib/x64")
+         OLD_RPATH ":/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/lib/x64:/opt/ros/noetic/lib:"
+         NEW_RPATH ":/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/lib/x64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liborbbec_camera.so")
     endif()
@@ -135,15 +135,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liborbbec_camera_nodelet.so")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liborbbec_camera_nodelet.so"
-         RPATH ":/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/lib/x64")
+         RPATH ":/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/lib/x64")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/chaeeun/OJT_ORG/devel/lib/liborbbec_camera_nodelet.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/chaeeun/OJT/devel/lib/liborbbec_camera_nodelet.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liborbbec_camera_nodelet.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liborbbec_camera_nodelet.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liborbbec_camera_nodelet.so"
-         OLD_RPATH ":/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/lib/x64:/opt/ros/noetic/lib:"
-         NEW_RPATH ":/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/lib/x64")
+         OLD_RPATH ":/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/lib/x64:/opt/ros/noetic/lib:"
+         NEW_RPATH ":/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/lib/x64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liborbbec_camera_nodelet.so")
     endif()
@@ -158,15 +158,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/orbbec_camera_node")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/orbbec_camera_node"
-         RPATH ":/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/lib/x64")
+         RPATH ":/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/lib/x64")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera" TYPE EXECUTABLE FILES "/home/chaeeun/OJT_ORG/devel/lib/orbbec_camera/orbbec_camera_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera" TYPE EXECUTABLE FILES "/home/chaeeun/OJT/devel/lib/orbbec_camera/orbbec_camera_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/orbbec_camera_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/orbbec_camera_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/orbbec_camera_node"
-         OLD_RPATH ":/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/lib/x64:/opt/ros/noetic/lib:/home/chaeeun/OJT_ORG/devel/lib:"
-         NEW_RPATH ":/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/lib/x64")
+         OLD_RPATH ":/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/lib/x64:/opt/ros/noetic/lib:/home/chaeeun/OJT/devel/lib:"
+         NEW_RPATH ":/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/lib/x64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/orbbec_camera_node")
     endif()
@@ -178,15 +178,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_devices_node")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_devices_node"
-         RPATH ":/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/lib/x64")
+         RPATH ":/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/lib/x64")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera" TYPE EXECUTABLE FILES "/home/chaeeun/OJT_ORG/devel/lib/orbbec_camera/list_devices_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera" TYPE EXECUTABLE FILES "/home/chaeeun/OJT/devel/lib/orbbec_camera/list_devices_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_devices_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_devices_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_devices_node"
-         OLD_RPATH ":/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/lib/x64:/opt/ros/noetic/lib:/home/chaeeun/OJT_ORG/devel/lib:"
-         NEW_RPATH ":/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/lib/x64")
+         OLD_RPATH ":/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/lib/x64:/opt/ros/noetic/lib:/home/chaeeun/OJT/devel/lib:"
+         NEW_RPATH ":/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/lib/x64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_devices_node")
     endif()
@@ -198,15 +198,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_depth_work_mode_node")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_depth_work_mode_node"
-         RPATH ":/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/lib/x64")
+         RPATH ":/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/lib/x64")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera" TYPE EXECUTABLE FILES "/home/chaeeun/OJT_ORG/devel/lib/orbbec_camera/list_depth_work_mode_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera" TYPE EXECUTABLE FILES "/home/chaeeun/OJT/devel/lib/orbbec_camera/list_depth_work_mode_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_depth_work_mode_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_depth_work_mode_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_depth_work_mode_node"
-         OLD_RPATH ":/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/lib/x64:/opt/ros/noetic/lib:/home/chaeeun/OJT_ORG/devel/lib:"
-         NEW_RPATH ":/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/lib/x64")
+         OLD_RPATH ":/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/lib/x64:/opt/ros/noetic/lib:/home/chaeeun/OJT/devel/lib:"
+         NEW_RPATH ":/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/lib/x64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_depth_work_mode_node")
     endif()
@@ -218,15 +218,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_camera_profile_mode_node")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_camera_profile_mode_node"
-         RPATH ":/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/lib/x64")
+         RPATH ":/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/lib/x64")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera" TYPE EXECUTABLE FILES "/home/chaeeun/OJT_ORG/devel/lib/orbbec_camera/list_camera_profile_mode_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera" TYPE EXECUTABLE FILES "/home/chaeeun/OJT/devel/lib/orbbec_camera/list_camera_profile_mode_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_camera_profile_mode_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_camera_profile_mode_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_camera_profile_mode_node"
-         OLD_RPATH ":/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/lib/x64:/opt/ros/noetic/lib:/home/chaeeun/OJT_ORG/devel/lib:"
-         NEW_RPATH ":/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/lib/x64")
+         OLD_RPATH ":/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/lib/x64:/opt/ros/noetic/lib:/home/chaeeun/OJT/devel/lib:"
+         NEW_RPATH ":/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/lib/x64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbbec_camera/list_camera_profile_mode_node")
     endif()
@@ -234,30 +234,30 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/orbbec_camera/" TYPE DIRECTORY FILES "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/include")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/orbbec_camera/" TYPE DIRECTORY FILES "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/include")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/orbbec_camera/" TYPE DIRECTORY FILES "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/orbbec_camera/" TYPE DIRECTORY FILES "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbbec_camera" TYPE DIRECTORY FILES "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbbec_camera" TYPE DIRECTORY FILES "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbbec_camera" TYPE DIRECTORY FILES "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbbec_camera" TYPE DIRECTORY FILES "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/config")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbbec_camera" TYPE FILE FILES "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/nodelet_plugins.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbbec_camera" TYPE FILE FILES "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/nodelet_plugins.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbbec_camera" TYPE FILE FILES "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/LICENSE")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbbec_camera" TYPE FILE FILES "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/LICENSE")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/" TYPE DIRECTORY FILES "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/lib/x64/" FILES_MATCHING REGEX "/[^/]*\\.so$" REGEX "/[^/]*\\.so\\.[^/]*$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/" TYPE DIRECTORY FILES "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/lib/x64/" FILES_MATCHING REGEX "/[^/]*\\.so$" REGEX "/[^/]*\\.so\\.[^/]*$")
 endif()
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/src/list_camera_profile_mode.cpp" "/home/chaeeun/OJT_ORG/build/OrbbecSDK_ROS1/CMakeFiles/list_camera_profile_mode_node.dir/src/list_camera_profile_mode.cpp.o"
+  "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/src/list_camera_profile_mode.cpp" "/home/chaeeun/OJT/build/OrbbecSDK_ROS1/CMakeFiles/list_camera_profile_mode_node.dir/src/list_camera_profile_mode.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,18 +20,18 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/chaeeun/OJT_ORG/devel/include"
+  "/home/chaeeun/OJT/devel/include"
   "OrbbecSDK_ROS1/include"
-  "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/include"
+  "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/include"
+  "/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/include"
   "/usr/include/opencv4"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/chaeeun/OJT_ORG/build/OrbbecSDK_ROS1/CMakeFiles/orbbec_camera.dir/DependInfo.cmake"
+  "/home/chaeeun/OJT/build/OrbbecSDK_ROS1/CMakeFiles/orbbec_camera.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

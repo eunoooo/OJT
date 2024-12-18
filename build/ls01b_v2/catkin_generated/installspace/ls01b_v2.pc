@@ -1,4 +1,4 @@
-prefix=/home/chaeeun/OJT_ORG/install
+prefix=/home/chaeeun/OJT/install
 
 Name: ls01b_v2
 Description: Description of ls01b_v2

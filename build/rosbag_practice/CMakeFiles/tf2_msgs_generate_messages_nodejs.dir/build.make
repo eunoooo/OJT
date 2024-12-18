@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chaeeun/OJT_ORG/src
+CMAKE_SOURCE_DIR = /home/chaeeun/OJT/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chaeeun/OJT_ORG/build
+CMAKE_BINARY_DIR = /home/chaeeun/OJT/build
 
 # Utility rule file for tf2_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ rosbag_practice/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build: tf2_msgs
 .PHONY : rosbag_practice/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
 
 rosbag_practice/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/chaeeun/OJT_ORG/build/rosbag_practice && $(CMAKE_COMMAND) -P CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/chaeeun/OJT/build/rosbag_practice && $(CMAKE_COMMAND) -P CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : rosbag_practice/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/clean
 
 rosbag_practice/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/chaeeun/OJT_ORG/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chaeeun/OJT_ORG/src /home/chaeeun/OJT_ORG/src/rosbag_practice /home/chaeeun/OJT_ORG/build /home/chaeeun/OJT_ORG/build/rosbag_practice /home/chaeeun/OJT_ORG/build/rosbag_practice/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chaeeun/OJT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chaeeun/OJT/src /home/chaeeun/OJT/src/rosbag_practice /home/chaeeun/OJT/build /home/chaeeun/OJT/build/rosbag_practice /home/chaeeun/OJT/build/rosbag_practice/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rosbag_practice/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/depend
 

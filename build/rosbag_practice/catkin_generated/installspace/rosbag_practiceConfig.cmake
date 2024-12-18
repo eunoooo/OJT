@@ -67,14 +67,14 @@ set(rosbag_practice_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosbag_practice_SOURCE_PREFIX /home/chaeeun/OJT_ORG/src/rosbag_practice)
-  set(rosbag_practice_DEVEL_PREFIX /home/chaeeun/OJT_ORG/devel)
+  set(rosbag_practice_SOURCE_PREFIX /home/chaeeun/OJT/src/rosbag_practice)
+  set(rosbag_practice_DEVEL_PREFIX /home/chaeeun/OJT/devel)
   set(rosbag_practice_INSTALL_PREFIX "")
   set(rosbag_practice_PREFIX ${rosbag_practice_DEVEL_PREFIX})
 else()
   set(rosbag_practice_SOURCE_PREFIX "")
   set(rosbag_practice_DEVEL_PREFIX "")
-  set(rosbag_practice_INSTALL_PREFIX /home/chaeeun/OJT_ORG/install)
+  set(rosbag_practice_INSTALL_PREFIX /home/chaeeun/OJT/install)
   set(rosbag_practice_PREFIX ${rosbag_practice_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/chaeeun/OJT_ORG/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/chaeeun/OJT/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

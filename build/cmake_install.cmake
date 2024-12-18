@@ -1,8 +1,8 @@
-# Install script for directory: /home/chaeeun/OJT_ORG/src
+# Install script for directory: /home/chaeeun/OJT/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chaeeun/OJT_ORG/install")
+  set(CMAKE_INSTALL_PREFIX "/home/chaeeun/OJT/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,96 +49,96 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chaeeun/OJT_ORG/install/_setup_util.py")
+   "/home/chaeeun/OJT/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chaeeun/OJT_ORG/install" TYPE PROGRAM FILES "/home/chaeeun/OJT_ORG/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/chaeeun/OJT/install" TYPE PROGRAM FILES "/home/chaeeun/OJT/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chaeeun/OJT_ORG/install/env.sh")
+   "/home/chaeeun/OJT/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chaeeun/OJT_ORG/install" TYPE PROGRAM FILES "/home/chaeeun/OJT_ORG/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/chaeeun/OJT/install" TYPE PROGRAM FILES "/home/chaeeun/OJT/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chaeeun/OJT_ORG/install/setup.bash;/home/chaeeun/OJT_ORG/install/local_setup.bash")
+   "/home/chaeeun/OJT/install/setup.bash;/home/chaeeun/OJT/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chaeeun/OJT_ORG/install" TYPE FILE FILES
-    "/home/chaeeun/OJT_ORG/build/catkin_generated/installspace/setup.bash"
-    "/home/chaeeun/OJT_ORG/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/chaeeun/OJT/install" TYPE FILE FILES
+    "/home/chaeeun/OJT/build/catkin_generated/installspace/setup.bash"
+    "/home/chaeeun/OJT/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chaeeun/OJT_ORG/install/setup.sh;/home/chaeeun/OJT_ORG/install/local_setup.sh")
+   "/home/chaeeun/OJT/install/setup.sh;/home/chaeeun/OJT/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chaeeun/OJT_ORG/install" TYPE FILE FILES
-    "/home/chaeeun/OJT_ORG/build/catkin_generated/installspace/setup.sh"
-    "/home/chaeeun/OJT_ORG/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/chaeeun/OJT/install" TYPE FILE FILES
+    "/home/chaeeun/OJT/build/catkin_generated/installspace/setup.sh"
+    "/home/chaeeun/OJT/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chaeeun/OJT_ORG/install/setup.zsh;/home/chaeeun/OJT_ORG/install/local_setup.zsh")
+   "/home/chaeeun/OJT/install/setup.zsh;/home/chaeeun/OJT/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chaeeun/OJT_ORG/install" TYPE FILE FILES
-    "/home/chaeeun/OJT_ORG/build/catkin_generated/installspace/setup.zsh"
-    "/home/chaeeun/OJT_ORG/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/chaeeun/OJT/install" TYPE FILE FILES
+    "/home/chaeeun/OJT/build/catkin_generated/installspace/setup.zsh"
+    "/home/chaeeun/OJT/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chaeeun/OJT_ORG/install/.rosinstall")
+   "/home/chaeeun/OJT/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chaeeun/OJT_ORG/install" TYPE FILE FILES "/home/chaeeun/OJT_ORG/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/chaeeun/OJT/install" TYPE FILE FILES "/home/chaeeun/OJT/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/chaeeun/OJT_ORG/build/gtest/cmake_install.cmake")
-  include("/home/chaeeun/OJT_ORG/build/basic_tutorial/cmake_install.cmake")
-  include("/home/chaeeun/OJT_ORG/build/beginner_tutorials/cmake_install.cmake")
-  include("/home/chaeeun/OJT_ORG/build/ls01b_v2/cmake_install.cmake")
-  include("/home/chaeeun/OJT_ORG/build/ojt_4/cmake_install.cmake")
-  include("/home/chaeeun/OJT_ORG/build/ojt_5/cmake_install.cmake")
-  include("/home/chaeeun/OJT_ORG/build/rosbag_practice/cmake_install.cmake")
-  include("/home/chaeeun/OJT_ORG/build/OrbbecSDK_ROS1/cmake_install.cmake")
-  include("/home/chaeeun/OJT_ORG/build/ojt_6/cmake_install.cmake")
+  include("/home/chaeeun/OJT/build/gtest/cmake_install.cmake")
+  include("/home/chaeeun/OJT/build/basic_tutorial/cmake_install.cmake")
+  include("/home/chaeeun/OJT/build/beginner_tutorials/cmake_install.cmake")
+  include("/home/chaeeun/OJT/build/ls01b_v2/cmake_install.cmake")
+  include("/home/chaeeun/OJT/build/ojt_4/cmake_install.cmake")
+  include("/home/chaeeun/OJT/build/ojt_5/cmake_install.cmake")
+  include("/home/chaeeun/OJT/build/rosbag_practice/cmake_install.cmake")
+  include("/home/chaeeun/OJT/build/OrbbecSDK_ROS1/OrbbecSDK_ROS1/cmake_install.cmake")
+  include("/home/chaeeun/OJT/build/ojt_6/cmake_install.cmake")
 
 endif()
 
@@ -150,5 +150,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/chaeeun/OJT_ORG/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/chaeeun/OJT/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

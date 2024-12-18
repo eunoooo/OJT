@@ -11,7 +11,6 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   sensor_msgs
   tf
-  tf2_ros
   geometry_msgs
 )
 
@@ -107,7 +106,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES ojt_6
-  CATKIN_DEPENDS roscpp sensor_msgs tf tf2_ros geometry_msgs
+  CATKIN_DEPENDS roscpp sensor_msgs tf geometry_msgs
 #  DEPENDS system_lib
 )
 

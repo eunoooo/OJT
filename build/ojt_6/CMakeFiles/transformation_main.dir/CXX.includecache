@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chaeeun/OJT_ORG/src/ojt_6/include/ojt_6/tf_sensor.h
+/home/chaeeun/OJT/src/ojt_6/include/ojt_6/tf_sensor.h
 ros/ros.h
 -
 sensor_msgs/LaserScan.h
@@ -16,7 +16,7 @@ sensor_msgs/PointCloud.h
 sensor_msgs/PointCloud2.h
 -
 sensor_msgs/point_cloud2_iterator.h
-/home/chaeeun/OJT_ORG/src/ojt_6/include/ojt_6/sensor_msgs/point_cloud2_iterator.h
+/home/chaeeun/OJT/src/ojt_6/include/ojt_6/sensor_msgs/point_cloud2_iterator.h
 tf/transform_listener.h
 -
 geometry_msgs/TransformStamped.h
@@ -28,13 +28,9 @@ cmath
 iostream
 -
 
-/home/chaeeun/OJT_ORG/src/ojt_6/src/transformation_main.cpp
+/home/chaeeun/OJT/src/ojt_6/src/transformation_sensor.cpp
 ojt_6/tf_sensor.h
-/home/chaeeun/OJT_ORG/src/ojt_6/src/ojt_6/tf_sensor.h
-
-/home/chaeeun/OJT_ORG/src/ojt_6/src/transformation_sensor.cpp
-ojt_6/tf_sensor.h
-/home/chaeeun/OJT_ORG/src/ojt_6/src/ojt_6/tf_sensor.h
+/home/chaeeun/OJT/src/ojt_6/src/ojt_6/tf_sensor.h
 
 /opt/ros/noetic/include/geometry_msgs/Point.h
 string

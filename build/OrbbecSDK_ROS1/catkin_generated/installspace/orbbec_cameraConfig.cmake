@@ -67,14 +67,14 @@ set(orbbec_camera_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(orbbec_camera_SOURCE_PREFIX /home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1)
-  set(orbbec_camera_DEVEL_PREFIX /home/chaeeun/OJT_ORG/devel)
+  set(orbbec_camera_SOURCE_PREFIX /home/chaeeun/OJT/src/OrbbecSDK_ROS1)
+  set(orbbec_camera_DEVEL_PREFIX /home/chaeeun/OJT/devel)
   set(orbbec_camera_INSTALL_PREFIX "")
   set(orbbec_camera_PREFIX ${orbbec_camera_DEVEL_PREFIX})
 else()
   set(orbbec_camera_SOURCE_PREFIX "")
   set(orbbec_camera_DEVEL_PREFIX "")
-  set(orbbec_camera_INSTALL_PREFIX /home/chaeeun/OJT_ORG/install)
+  set(orbbec_camera_INSTALL_PREFIX /home/chaeeun/OJT/install)
   set(orbbec_camera_PREFIX ${orbbec_camera_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/chaeeun/OJT_ORG/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/chaeeun/OJT/install/lib;/home/chaeeun/OJT/devel/lib;/home/chaeeun/OJT_ORG/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

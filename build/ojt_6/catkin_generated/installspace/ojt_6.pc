@@ -1,8 +1,8 @@
-prefix=/home/chaeeun/OJT_ORG/install
+prefix=/home/chaeeun/OJT/install
 
 Name: ojt_6
 Description: Description of ojt_6
 Version: 0.0.0
 Cflags: 
 Libs: -L${prefix}/lib 
-Requires: roscpp sensor_msgs tf tf2_ros geometry_msgs
+Requires: roscpp sensor_msgs tf geometry_msgs

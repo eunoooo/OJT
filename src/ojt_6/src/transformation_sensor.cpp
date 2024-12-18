@@ -17,15 +17,11 @@ TFSensor::~TFSensor(){
 
 void TFSensor::scanCallback(const sensor_msgs::LaserScan::ConstPtr& msg){
   
-    // transform_stamped_laser = tfBuffer.lookupTransform("base_link", "laser_link", ros::Time(0));
     listener.lookupTransform("base_link", "laser_link", ros::Time(0), transform_stamped_laser);
 
     // 극좌표계 -> 데카르트 좌표계
     std::vector<tf::Vector3> cartesian_points = convertCoordinate(msg);
-
-    // 변환된 좌표계 데이터를 base_link 기준으로 TF 변환
     tf::Vector3 transformed_point_laser;
-    // pointCloud 변환할 때 사용할 변수
     geometry_msgs::Point32 p;
     sensor_msgs::PointCloud cloud_msg;
 
@@ -45,28 +41,19 @@ void TFSensor::scanCallback(const sensor_msgs::LaserScan::ConstPtr& msg){
     pub_transform_scan.publish(cloud_msg);
 }
 
-/*
-
-
- */
 void TFSensor::pointsCallback(const sensor_msgs::PointCloud2::ConstPtr& msg){
-    // TF 변환을 위한 TransformStamped 가져오기
-    // transform_stamped_camera = tfBuffer.lookupTransform("base_link", "camera_link", ros::Time(0));
 
-    listener.lookupTransform("base_link", "camera_link", ros::Time(0), transform_stamped_camera);
-    
-    // pointCloud 변환할 때 사용할 변수
+    listener.lookupTransform("base_link", "camera_depth_optical_frame", ros::Time(0), transform_stamped_camera);
+  
     geometry_msgs::Point32 p;
     sensor_msgs::PointCloud camera_msg;
-
-    camera_msg.header.stamp = ros::Time::now();
-    camera_msg.header.frame_id = "base_link";  
-    
-    // todo pointcloud2 iterator xyz 접근 어케 함ㅜㅜ!!
     sensor_msgs::PointCloud2ConstIterator<float> iter_x(*msg, "x");
 	sensor_msgs::PointCloud2ConstIterator<float> iter_y(*msg, "y");
 	sensor_msgs::PointCloud2ConstIterator<float> iter_z(*msg, "z");
-     
+
+    camera_msg.header.stamp = ros::Time::now();
+    camera_msg.header.frame_id = "base_link";  
+   
     tf::Vector3 transformed_point_camera;
 
     while(iter_x != iter_x.end()){
@@ -83,9 +70,6 @@ void TFSensor::pointsCallback(const sensor_msgs::PointCloud2::ConstPtr& msg){
             ++iter_y;
             ++iter_z;
     }
-    
-
-    // 변환된 PointCloud2 메시지 publish
     pub_transform_depth.publish(camera_msg);
 }
 

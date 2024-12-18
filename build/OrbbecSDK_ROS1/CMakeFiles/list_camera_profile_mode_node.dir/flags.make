@@ -6,5 +6,5 @@ CXX_FLAGS =  -fPIC -O3 -O3 -DNDEBUG   -std=gnu++11
 
 CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"orbbec_camera\"
 
-CXX_INCLUDES = -I/home/chaeeun/OJT_ORG/devel/include -I/home/chaeeun/OJT_ORG/build/OrbbecSDK_ROS1/include -I/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/chaeeun/OJT_ORG/src/OrbbecSDK_ROS1/SDK/include -isystem /usr/include/opencv4 
+CXX_INCLUDES = -I/home/chaeeun/OJT/devel/include -I/home/chaeeun/OJT/build/OrbbecSDK_ROS1/include -I/home/chaeeun/OJT/src/OrbbecSDK_ROS1/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/chaeeun/OJT/src/OrbbecSDK_ROS1/SDK/include -isystem /usr/include/opencv4 
 

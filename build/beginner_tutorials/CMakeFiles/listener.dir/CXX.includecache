@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/chaeeun/OJT_ORG/src/beginner_tutorials/src/listener.cpp
+/home/chaeeun/OJT/src/beginner_tutorials/src/listener.cpp
 ros/ros.h
-/home/chaeeun/OJT_ORG/src/beginner_tutorials/src/ros/ros.h
+/home/chaeeun/OJT/src/beginner_tutorials/src/ros/ros.h
 std_msgs/String.h
-/home/chaeeun/OJT_ORG/src/beginner_tutorials/src/std_msgs/String.h
+/home/chaeeun/OJT/src/beginner_tutorials/src/std_msgs/String.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h
